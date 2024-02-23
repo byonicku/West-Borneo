@@ -1,9 +1,124 @@
 .opening-text {
-    font-size: 25px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Fredoka', sans-serif;
-    color: white;
+  padding-top: 400px;
+  padding-left: 10px;
+  font-size: 25px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Fredoka", sans-serif;
+  color: white;
+}
+
+.opening-bg {
+    background-image: url("https://lh5.googleusercontent.com/3xlLAmIP1UnNInph-ko9jJMQCyWMSDJQyV9JLEyNWFwDeY_WrS3WamjZDCHHdZ31UP8SgvkEPgBsVHmLNa1IbhlzlJlfMYOAM70MRyQRNg4LuHLuqbJ5hkiwwtt2crFlmJb3T_xEV_nASMLpy-Q8YQMZUff7F8T3gV4ruk5ZKxeuNSa2lkdeBSqa_A");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.w3-animate-fading {
+  animation: fading 10s infinite;
+}
+
+@keyframes fading {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.w3-animate-opacity {
+  animation: opac 0.8s;
+}
+
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.w3-animate-top {
+  position: relative;
+  animation: animatetop 0.4s;
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.w3-animate-left {
+  position: relative;
+  animation: animateleft 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes animateleft {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+.w3-animate-right {
+  position: relative;
+  animation: animateright 0.4s;
+}
+@keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+.w3-animate-bottom {
+  position: relative;
+  animation: animatebottom 0.4s;
+}
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+.w3-animate-zoom {
+  animation: animatezoom 0.6s;
+}
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.w3-animate-input {
+  transition: width 0.4s ease-in-out;
+}
+.w3-animate-input:focus {
+  width: 100% !important;
 }
