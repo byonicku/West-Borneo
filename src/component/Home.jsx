@@ -10,7 +10,7 @@ export default function Home() {
             <Card className="bg-transparent border-0 text-white">
               <Card.Body>
                 <Card.Title>
-                  <strong>Welcome to Indonesia!</strong>
+                  <h1><strong>Welcome to Indonesia!</strong></h1>
                 </Card.Title>
                 <Card.Text>
                   Selamat datang di Pesona Indonesia. Kami akan membantu Anda

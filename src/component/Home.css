@@ -1,7 +1,7 @@
 .opening-text {
   padding-top: 400px;
   padding-left: 10px;
-  font-size: 25px;
+  font-size: 1.2em;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

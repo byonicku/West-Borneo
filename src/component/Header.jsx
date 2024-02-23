@@ -1,6 +1,7 @@
     import { Navbar, Container, Nav } from 'react-bootstrap';
     import './Header.css';
     import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
     export default function Header() {
         const [scrolled, setScrolled] = useState(false);
@@ -37,9 +38,9 @@
             </Navbar.Toggle>
             <Navbar.Collapse id="navbarNavDropdown">
                 <Nav className={scrolled ? "scrolled-header-content ms-auto" : "header-content ms-auto" }>
-                <Nav.Link className="text-white">Beranda</Nav.Link>
-                <Nav.Link className="text-white">Tentang Kami</Nav.Link>
-                <Nav.Link className="text-white">Destinasi</Nav.Link>
+                <Link to="/" className='nav-link text-white'>Beranda</Link>
+                <Link to="/about" className='nav-link text-white'>Tentang Kami</Link>
+                <Link to="/destinasi" className='nav-link text-white'>Destinasi</Link>
                 </Nav>
             </Navbar.Collapse>
             </Container>

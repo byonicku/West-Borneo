@@ -19,15 +19,15 @@
 }
 
 .header-content .nav-link:hover {
-    text-shadow: 0 0 3px #ffffff;
+    text-shadow: 0 0 3px white;
 }
 
 .header-content .nav-link:active {
-    text-shadow: 0 0 3px #ffffff;
+    text-shadow: 0 0 3px white;
 }
 
 .header-content .nav-link:focus {
-    text-shadow: 0 0 3px #ffffff;
+    text-shadow: 0 0 3px white;
 }
 
 .scrolled-header-content .nav-link {
@@ -37,14 +37,14 @@
 }
 
 .scrolled-header-content .nav-link:hover {
-    text-shadow: 0 0 3px #000;
+    text-shadow: 0 0 1px black;
 }
 
 .scrolled-header-content .nav-link:active {
-    text-shadow: 0 0 3px #000;
+    text-shadow: 0 0 1px black;
 }
 .scrolled-header-content .nav-link:focus {
-    text-shadow: 0 0 3px #000;
+    text-shadow: 0 0 1px black;
 }
 
 .scrolled-navbar {
