@@ -1,0 +1,9 @@
+.opening-text {
+    font-size: 25px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+}

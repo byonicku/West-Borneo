@@ -1,5 +1,39 @@
 .header-content {
-    margin-top: 25px;
     font-size: 25px;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-content .nav-link {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.header-content .nav-link:hover {
+    color: white;
+    text-shadow: 0 0 3px #ffffff;
+}
+
+.header-content .nav-link:active {
+    color: white;
+    text-shadow: 0 0 3px #ffffff;
+}
+
+.header-content .nav-link:focus {
+    color: white;
+    text-shadow: 0 0 3px #ffffff;
+}
+
+.scrolled-navbar {
+    transition: background-color 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.scrolled-navbar .navbar-brand h2 {
+    color: #000;
+}
+
+.scrolled-navbar .nav-link {
+    color: #000 !important;
 }
