@@ -32,12 +32,12 @@ export default function Destinasi() {
                   height: "200px", 
                   objectFit: "cover"
                  }}/>
-                <Card.Body className="destinasi-desc-text" style={{ 
+                <Card.Body style={{ 
                   backgroundColor: "rgba(203, 203, 203, 1)"
                  }}>
-                  <Card.Title>{destination.name}</Card.Title>
-                  <Card.Text>{destination.description}</Card.Text>
-                  <Card.Text>{destination.location}</Card.Text>
+                  <Card.Title className="destinasi-head-text">{destination.name}</Card.Title>
+                  <Card.Text className="destinasi-desc-text">{destination.description}</Card.Text>
+                {/* Tamabahin tombol detail yes */}
                 </Card.Body>
               </Card>
             </Col>

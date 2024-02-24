@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
         useEffect(() => {
             const handleScroll = () => {
-                const isScrolled = window.scrollY > 0;
+                const isScrolled = window.scrollY > 650;
                 if (isScrolled !== scrolled) {
                 setScrolled(isScrolled);
                 }

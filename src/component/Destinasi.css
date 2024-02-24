@@ -11,15 +11,17 @@
     color: white;
 }
 
-.destinasi-desc-text {
+.destinasi-head-text {
+    font-weight: bold;
     font-family: "Poppins", sans-serif;
 }
 
-.destination-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-    overflow-x: auto;
-    padding: 20px;
-    white-space: nowrap;
+.destinasi-desc-text {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.destinasi-footer-text {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
 }

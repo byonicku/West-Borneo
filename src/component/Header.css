@@ -13,7 +13,7 @@
 }
 
 .header-content .nav-link {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     transition: 0.3s;
 }
@@ -31,7 +31,7 @@
 }
 
 .scrolled-header-content .nav-link {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     transition: 0.3s;
 }
@@ -56,6 +56,7 @@
     transition: background-color 0.2s ease-in-out;
     background: linear-gradient(180deg, rgba(108,108,108,0.7979984230020133) 0%, rgba(108,108,108,0.4002393193605567) 35%, rgba(108,108,108,0) 100%);
 }
+
 
 .scrolled-navbar .navbar-brand h2 {
     color: #000;
