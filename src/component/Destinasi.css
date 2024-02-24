@@ -1,0 +1,25 @@
+.destinasi-text {
+    padding-top: 120px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-family: "Fredoka", sans-serif;
+    color: white;
+}
+
+.destinasi-desc-text {
+    font-family: "Poppins", sans-serif;
+}
+
+.destination-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+    white-space: nowrap;
+}

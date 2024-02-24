@@ -1,0 +1,12 @@
+.about-text {
+    padding-left: 10px;
+    font-size: 1.2em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-family: "Fredoka", sans-serif;
+    color: white;
+}

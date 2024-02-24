@@ -7,15 +7,17 @@ export default function Home() {
       <Row className="justify-content-center align-items-center opening-bg">
         <Col xs={12} md={8}>
           <div className="opening-text w3-animate-left">
-            <Card className="bg-transparent border-0 text-white">
+            <Card className="text-white border-0" style={{ 
+              backgroundColor: "rgba(0, 0, 0, 0.3)"
+             }}>
               <Card.Body>
                 <Card.Title>
-                  <h1><strong>Welcome to Indonesia!</strong></h1>
+                  <h1><strong>Welcome to West Kalimantan!</strong></h1>
                 </Card.Title>
                 <Card.Text>
-                  Selamat datang di Pesona Indonesia. Kami akan membantu Anda
+                  Selamat datang! Kami akan membantu Anda
                   untuk menemukan tempat-tempat wisata yang menarik di
-                  Indonesia.
+                  Kalimantan.
                 </Card.Text>
               </Card.Body>
             </Card>
