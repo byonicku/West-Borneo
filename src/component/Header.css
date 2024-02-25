@@ -1,67 +1,78 @@
 .logo {
-    color: white;
+  color: white;
 }
 
 .header-content {
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
 }
 
 .scrolled-header-content {
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
 }
 
 .header-content .nav-link {
-    font-size: 20px;
-    font-weight: 500;
-    transition: 0.3s;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
 .header-content .nav-link:hover {
-    text-shadow: 0 0 3px white;
+  text-shadow: 0 0 3px white;
 }
 
 .header-content .nav-link:active {
-    text-shadow: 0 0 3px white;
+  text-shadow: 0 0 3px white;
 }
 
 .header-content .nav-link:focus {
-    text-shadow: 0 0 3px white;
+  text-shadow: 0 0 3px white;
 }
 
 .scrolled-header-content .nav-link {
-    font-size: 20px;
-    font-weight: 500;
-    transition: 0.3s;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
 .scrolled-header-content .nav-link:hover {
-    text-shadow: 0 0 1px black;
+  text-shadow: 0 0 1px black;
 }
 
 .scrolled-header-content .nav-link:active {
-    text-shadow: 0 0 1px black;
+  text-shadow: 0 0 1px black;
 }
 .scrolled-header-content .nav-link:focus {
-    text-shadow: 0 0 1px black;
+  text-shadow: 0 0 1px black;
 }
 
 .scrolled-navbar {
-    transition: background-color 0.3s ease-in-out;
-    background-color: rgba(203, 205, 203, 0.7);
+  transition: background-color 0.3s ease-in-out;
+  background: rgb(54, 62, 63);
+  /* background: linear-gradient(
+    180deg,
+    rgba(54, 62, 63, 1) 0%,
+    rgba(54, 62, 63, 0.8) 80%,
+    rgba(54, 62, 63, 0) 100%
+  ); */
+  /* KASI GRADIEN jELEK MENDING KASI WARNA TEGAS ANJAY */
 }
 
 .unscrolled-navbar {
-    transition: background-color 0.2s ease-in-out;
-    background: linear-gradient(180deg, rgba(108,108,108,0.7979984230020133) 0%, rgba(108,108,108,0.4002393193605567) 35%, rgba(108,108,108,0) 100%);
+  transition: background-color 0.2s ease-in-out;
+  background: linear-gradient(
+    180deg,
+    rgba(108, 108, 108, 0.7979984230020133) 0%,
+    rgba(108, 108, 108, 0.4002393193605567) 35%,
+    rgba(108, 108, 108, 0) 100%
+  );
 }
 
-
 .scrolled-navbar .navbar-brand h2 {
-    color: #000;
+  color: #cbcdcb;
 }
 
 .scrolled-navbar .nav-link {
-    color: #000 !important;
+  color: #cbcdcb !important;
 }
