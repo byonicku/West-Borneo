@@ -4,19 +4,37 @@ import {
   Col,
   Container,
   Form,
-  FormControl,
   InputGroup,
   Row,
 } from "react-bootstrap";
 import "./Destinasi.css"; // Import your custom CSS if needed
 import destinations from "../assets/DataDestinasi.jsx"; // Import your destinations data
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 export default function Destinasi() {
-  const [inputValue, setinputValue] = useState("");
+  const [destinationFilter, setDestinationFilter] = useState(destinations);
+  const [inputValue, setinputValue] = useState(""); 
+
+  useEffect(() => {
+    setDestinationFilter(destinations);
+  }, []);
+
+  function searchDestination(value) {
+    const filtered = destinations.filter((destination) => {
+      return destination.name.toLowerCase().includes(value.toLowerCase());
+    });
+    setDestinationFilter(filtered);
+  }
+
   const handleInputChange = (event) => {
     setinputValue(event.target.value);
+    setTimeout(() => {
+      searchDestination(event.target.value);
+    }, 750);
   };
+
   return (
     <Container fluid>
       <Row className="justify-content-center align-items-center">
@@ -29,24 +47,24 @@ export default function Destinasi() {
                     <strong>Destinasi Wisata</strong>
                   </h1>
                 </Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </Card.Text>
                 <InputGroup className="mb-3">
                   <Form.Control
                     placeholder="Cari Destinasi"
                     aria-label="Cari Destinasi"
-                    aria-describedby="basic-addon2"
                     value={inputValue}
                     onChange={handleInputChange}
                   />
                   <Button
                     variant="secondary"
                     className="search-button"
-                    id="button-addon2">
-                    cari
+                    onClick={() => searchDestination(inputValue)}
+                    >
+                    <FontAwesomeIcon icon={faMagnifyingGlass} />
                   </Button>
                 </InputGroup>
-                <Card.Text>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                </Card.Text>
               </Card.Body>
             </Card>
           </div>
@@ -54,7 +72,7 @@ export default function Destinasi() {
       </Row>
       <Container>
         <Row className="justify-content-center">
-          {destinations.map((destination) => (
+          {destinationFilter.map((destination) => (
             <Col
               key={destination.id}
               xs={12}

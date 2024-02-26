@@ -24,6 +24,24 @@
   background-position: center;
 }
 
+.daftar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Fredoka", sans-serif;
+}
+
+.daftar-text {
+  font-family: "Poppins", sans-serif;
+}
+
+.food-text {
+  font-size: 0.8em;
+  font-family: "Poppins", sans-serif;
+}
+
 .w3-animate-fading {
   animation: fading 10s infinite;
 }
