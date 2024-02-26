@@ -2,13 +2,35 @@ import { Container, Carousel, Row, Col } from "react-bootstrap";
 import "./Home.css";
 import { Card } from "react-bootstrap";
 
-import "./ItemSlider/ItemSlider.jsx";
 import "../assets/DataDestinasi.jsx";
 import destinations from "../assets/DataDestinasi.jsx";
 import foods from "../assets/DataMakanan.jsx";
-import ItemsSlider from "./ItemSlider/ItemSlider.jsx";
+import ReactOwlCarousel from "react-owl-carousel";
+
 
 export default function Home() {
+  const options = {
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    autoWidth: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: false,
+      },
+      600: {
+        items: 3,
+        nav: false,
+      },
+      1000: {
+        items: 5,
+        nav: false,
+        loop: true,
+      },
+    },
+  };
+
   return (
     <Container fluid>
       <Row className="justify-content-center align-items-center opening-bg">
@@ -68,38 +90,39 @@ export default function Home() {
             </Carousel>
 
             <h2 className="daftar mt-5">Daftar Makanan Khas</h2>
-            <ItemsSlider title="">
-              {foods.map((food, index) => {
-                return (
-                  <span key={index}>
-                    <Card style={{ width: "12rem", height: "18rem" }}>
-                      <Card.Img variant="top" src={food.image} style={{ 
-                        height: "100px",
+            <ReactOwlCarousel className="owl-theme" {...options}>
+              {foods.map((food, index) => (
+                <div key={index} className="item">
+                  <Card style={{ width: "18rem", height: "20rem" }}>
+                    <Card.Img
+                      variant="top"
+                      src={food.image}
+                      style={{
+                        height: "110px",
                         objectFit: "cover",
-                       }}/>
-                      <Card.Body className="food-text">
-                        <Card.Title
-                          style={{
-                            fontWeight: "bold",
-                            fontSize: "0.7em",
-                            display: "flex",
-                            justifyContent: "center",
-                          }}
-                        >
-                          {food.name}
-                        </Card.Title>
-                        <Card.Text style={{ fontSize: "0.6em", padding: 0, margin: 0 }}>
-                          {food.description}
-                        </Card.Text>
-                      </Card.Body>
-                    </Card>
-                  </span>
-                );
-              })}
-            </ItemsSlider>
-
-            <h2 className="daftar mt-5">Daftar Event</h2>
-            {/* Add Carousel for Event */}
+                      }}
+                    />
+                    <Card.Body className="food-text">
+                      <Card.Title
+                        style={{
+                          fontWeight: "bold",
+                          fontSize: "1em",
+                          display: "flex",
+                          justifyContent: "center",
+                        }}
+                      >
+                        {food.name}
+                      </Card.Title>
+                      <Card.Text
+                        style={{ fontSize: "0.8em", padding: 0, margin: 0 }}
+                      >
+                        {food.description}
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </div>
+              ))}
+            </ReactOwlCarousel>
           </Container>
         </Col>
       </Row>
