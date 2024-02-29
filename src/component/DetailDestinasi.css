@@ -1,0 +1,17 @@
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.destination-desc {
+  padding-top: 100px;
+  padding-left: 10px;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  font-family: "Fredoka", sans-serif;
+  color: white;
+}

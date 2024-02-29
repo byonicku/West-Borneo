@@ -1,26 +1,27 @@
-import './App.css'
-import Header from './component/Header';
-import { Toaster } from 'sonner';
-import { Route, Routes } from "react-router-dom";
-import Home from './component/Home.jsx';
-import About from './component/About.jsx';
-import Destinasi from './component/Destinasi.jsx';
+import "./App.css";
+import Header from "./component/Header";
+import { Toaster } from "sonner";
+import { Route, Routes, useParams } from "react-router-dom";
+import Home from "./component/Home.jsx";
+import About from "./component/About.jsx";
+import Destinasi from "./component/Destinasi.jsx";
+import DetailDestinasi from "./component/DetailDestinasi";
 
 function App() {
-
   return (
     <>
-      <Header/>
+      <Header />
       <Toaster position="top-center" richColors closeButton />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/destinasi" element={<Destinasi />} />
+          <Route path="/destinasi/:slug" element={<DetailDestinasi />} />
         </Routes>
       </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

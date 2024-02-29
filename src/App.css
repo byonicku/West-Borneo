@@ -1,7 +1,3 @@
-body {
-  background-color: #576149;
-}
-
 #root {
   background-color: #576149;
 }
@@ -11,4 +7,31 @@ main {
   min-height: 100vh;
   font-size: 1.5rem;
   flex-grow: 1;
+}
+
+body {
+  background-color: #576149;
+  --sb-track-color: #cbcdcb;
+  --sb-thumb-color: #292f35;
+  --sb-size: 12px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 4px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
 }

@@ -2,11 +2,10 @@ import { Container, Carousel, Row, Col } from "react-bootstrap";
 import "./Home.css";
 import { Card } from "react-bootstrap";
 
-import "../assets/DataDestinasi.jsx";
-import destinations from "../assets/DataDestinasi.jsx";
-import foods from "../assets/DataMakanan.jsx";
+import "../assets/DataDestinasi.js";
+import destinations from "../assets/DataDestinasi.js";
+import foods from "../assets/DataMakanan.js";
 import ReactOwlCarousel from "react-owl-carousel";
-
 
 export default function Home() {
   const options = {
@@ -40,8 +39,7 @@ export default function Home() {
               className="text-white border-0"
               style={{
                 backgroundColor: "rgba(0, 0, 0, 0.3)",
-              }}
-            >
+              }}>
               <Card.Body>
                 <Card.Title>
                   <h1>
@@ -79,8 +77,7 @@ export default function Home() {
                         backgroundColor: "rgba(0, 0, 0, 0.3)",
                         borderRadius: "10px",
                       }}
-                      className="daftar-text"
-                    >
+                      className="daftar-text">
                       <h3 style={{ fontWeight: "bold" }}>{destination.name}</h3>
                       <p>{destination.description}</p>
                     </Carousel.Caption>
@@ -109,13 +106,11 @@ export default function Home() {
                           fontSize: "1em",
                           display: "flex",
                           justifyContent: "center",
-                        }}
-                      >
+                        }}>
                         {food.name}
                       </Card.Title>
                       <Card.Text
-                        style={{ fontSize: "0.8em", padding: 0, margin: 0 }}
-                      >
+                        style={{ fontSize: "0.8em", padding: 0, margin: 0 }}>
                         {food.description}
                       </Card.Text>
                     </Card.Body>
