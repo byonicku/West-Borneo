@@ -2,9 +2,9 @@ import { Container, Carousel, Row, Col } from "react-bootstrap";
 import "./Home.css";
 import { Card } from "react-bootstrap";
 
-import "../assets/DataDestinasi.js";
-import destinations from "../assets/DataDestinasi.js";
-import foods from "../assets/DataMakanan.js";
+import "../dummy/DataDestinasi.js";
+import destinations from "../dummy/DataDestinasi.js";
+import foods from "../dummy/DataMakanan.js";
 import ReactOwlCarousel from "react-owl-carousel";
 
 export default function Home() {

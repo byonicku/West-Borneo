@@ -6,11 +6,10 @@ import {
   Form,
   InputGroup,
   Row,
-  Spinner,
 } from "react-bootstrap";
 import "./Destinasi.css";
-import "../assets/loadingAnimation.css";
-import destinations from "../assets/DataDestinasi.js";
+import "../animation/loadingAnimation.css";
+import destinations from "../dummy/DataDestinasi.js";
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
@@ -125,8 +124,8 @@ export default function Destinasi() {
           </Row>
         ) : (
           <div className="d-flex justify-content-center w3-animate-opacity">
-            <div class="loadingio-spinner-ellipsis-qssv9kk26qh">
-              <div class="ldio-2iup310a73y">
+            <div className="loadingio-spinner-ellipsis-qssv9kk26qh">
+              <div className="ldio-2iup310a73y">
                 <div></div>
                 <div></div>
                 <div></div>

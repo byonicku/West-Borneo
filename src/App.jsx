@@ -1,11 +1,12 @@
 import "./App.css";
 import Header from "./component/Header";
 import { Toaster } from "sonner";
-import { Route, Routes, useParams } from "react-router-dom";
-import Home from "./component/Home.jsx";
-import About from "./component/About.jsx";
-import Destinasi from "./component/Destinasi.jsx";
-import DetailDestinasi from "./component/DetailDestinasi";
+import { Route, Routes } from "react-router-dom";
+import Home from "./page/Home.jsx";
+import About from "./page/About.jsx";
+import Destinasi from "./page/Destinasi.jsx";
+import DetailDestinasi from "./page/DetailDestinasi.jsx";
+import Footer from "./component/Footer.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/destinasi/:slug" element={<DetailDestinasi />} />
         </Routes>
       </main>
+      <Footer/>
     </>
   );
 }
