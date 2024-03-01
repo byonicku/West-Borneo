@@ -6,8 +6,10 @@ import "../dummy/DataDestinasi.js";
 import destinations from "../dummy/DataDestinasi.js";
 import foods from "../dummy/DataMakanan.js";
 import ReactOwlCarousel from "react-owl-carousel";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate();
   const options = {
     loop: true,
     margin: 10,
@@ -62,16 +64,33 @@ export default function Home() {
             <Carousel>
               {destinations.map((destination) => {
                 return (
-                  <Carousel.Item key={destination.id}>
-                    <img
-                      className="d-block w-100"
-                      src={destination.image.thumbnail}
-                      alt={destination.name}
-                      style={{
-                        height: "500px",
-                        objectFit: "cover",
-                      }}
-                    />
+                  <Carousel.Item
+                    key={destination.id}
+                    onClick={() => {
+                      navigate(`/destinasi/${destination.slug}`);
+                    }}>
+                    <div style={{ position: "relative" }}>
+                      <img
+                        className="d-block w-100"
+                        src={destination.image.thumbnail}
+                        alt={destination.name}
+                        style={{
+                          cursor: "pointer",
+                          height: "500px",
+                          objectFit: "cover",
+                          transition: "filter 0.3s ease-in-out", // Add a smooth transition
+                        }}
+                        // Apply the filter on hover
+                        onMouseOver={(e) =>
+                          (e.currentTarget.style.filter = "brightness(70%)")
+                        }
+                        // Reset the filter on mouse leave
+                        onMouseLeave={(e) =>
+                          (e.currentTarget.style.filter = "brightness(100%)")
+                        }
+                      />
+                      <div className="hover-carousel-effect" />
+                    </div>
                     <Carousel.Caption
                       style={{
                         backgroundColor: "rgba(0, 0, 0, 0.3)",
@@ -110,7 +129,13 @@ export default function Home() {
                         {food.name}
                       </Card.Title>
                       <Card.Text
-                        style={{ fontSize: "0.8em", padding: 0, margin: 0 }}>
+                        style={{
+                          fontSize: "0.8em",
+                          padding: 0,
+                          margin: 0,
+                          textAlign: "justify",
+                          textJustify: "inter-word",
+                        }}>
                         {food.description}
                       </Card.Text>
                     </Card.Body>
@@ -118,6 +143,27 @@ export default function Home() {
                 </div>
               ))}
             </ReactOwlCarousel>
+            <h2 className="text-white mt-5 text-start apa-kata-mereka-header">
+              Apa Kata Mereka ?
+            </h2>
+            <div className="d-flex" style={{ gap: "0.8em" }}>
+              <img src="https://placehold.co/320x240" class="rounded"></img>
+              <Card className="w-100">
+                <Card.Header>Header</Card.Header>
+                <Card.Body>
+                  <p
+                    style={{
+                      textAlign: "justify",
+                      textJustify: "inter-word",
+                    }}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur iaculis sodales placerat. Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit. Curabitur iaculis sodales
+                    placerat.
+                  </p>
+                </Card.Body>
+              </Card>
+            </div>
           </Container>
         </Col>
       </Row>
