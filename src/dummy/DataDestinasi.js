@@ -5,7 +5,12 @@ const destinations = [
     description: "A beautiful beach with stunning rock formations.",
     location: "Singkawang, Indonesia",
     image: "https://placehold.co/1280x720", // Placeholder image URL
-    galery: ["https://placehold.co/1280x720"],
+    galery: [
+      "https://placehold.co/1280x720",
+      "https://placehold.co/1280x720",
+      "https://placehold.co/1280x720",
+      "https://placehold.co/1280x720",
+    ],
     slug: "batu-layang-beach",
     information:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin, metus et luctus eleifend, tellus felis interdum ipsum, id ornare quam leo sed ex. Quisque pretium purus non hendrerit imperdiet. Donec tempus ipsum et eleifend pellentesque. Sed sed diam posuere velit convallis lacinia ac in purus. Aliquam erat volutpat. Pellentesque et mattis libero. Pellentesque in urna non mauris faucibus ornare. Nunc placerat dui placerat vestibulum vehicula. Donec at nisl rutrum, tincidunt felis in, viverra ex. Suspendisse in magna faucibus, fringilla sapien eget, bibendum enim.",

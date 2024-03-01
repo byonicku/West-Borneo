@@ -4,11 +4,34 @@ import { useEffect, useState } from "react";
 import destinations from "../dummy/DataDestinasi";
 import "./DetailDestinasi.css";
 import { IoLocation } from "react-icons/io5";
+import ReactOwlCarousel from "react-owl-carousel";
 
 export const DetailDestinasi = () => {
   const { slug } = useParams();
   const [destination, setDestination] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  const options = {
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    autoWidth: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: false,
+      },
+      600: {
+        items: 3,
+        nav: false,
+      },
+      1000: {
+        items: 5,
+        nav: false,
+        loop: true,
+      },
+    },
+  };
 
   useEffect(() => {
     const foundDestination = destinations.find(
@@ -68,19 +91,34 @@ export const DetailDestinasi = () => {
               </Card>
             </div>
             <div className="d-flex justify-content-center w3-animate-opacity">
-            <iframe
-              width="100%"
-              height="300"
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-            >
-              <a href="https://www.gps.ie/">gps devices</a>
-            </iframe>
+              <iframe
+                width="100%"
+                height="300"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              >
+                <a href="https://www.gps.ie/">gps devices</a>
+              </iframe>
             </div>
-            
+            <ReactOwlCarousel className="owl-theme px-2" {...options}>
+              {destination.galery.map((img, index) => (
+                <div key={index} className="item">
+                    <img
+                      src={img}
+                      style={{
+                        height: "200px",
+                        objectFit: "cover",
+                      }}
+                    />
+                </div>
+              ))}
+            </ReactOwlCarousel>
           </Col>
         </Row>
       ) : (
-        <div className="d-flex justify-content-center w3-animate-opacity" style={{ paddingTop: '100px' }}>
+        <div
+          className="d-flex justify-content-center w3-animate-opacity"
+          style={{ paddingTop: "100px" }}
+        >
           <div className="loadingio-spinner-ellipsis-qssv9kk26qh">
             <div className="ldio-2iup310a73y">
               <div></div>
