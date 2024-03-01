@@ -13,28 +13,6 @@ export const DetailDestinasi = () => {
   const [loading, setLoading] = useState(true);
   const [images, setImages] = useState([]);
 
-  const options = {
-    loop: true,
-    margin: 10,
-    responsiveClass: true,
-    autoWidth: true,
-    responsive: {
-      0: {
-        items: 1,
-        nav: false,
-      },
-      600: {
-        items: 3,
-        nav: false,
-      },
-      1000: {
-        items: 5,
-        nav: false,
-        loop: true,
-      },
-    },
-  };
-
   useEffect(() => {
     const foundDestination = destinations.find(
       (destination) => destination.slug === slug
@@ -64,18 +42,6 @@ export const DetailDestinasi = () => {
                   style={{ fontWeight: "bold", fontSize: "1.24em" }}>
                   {destination.name}
                 </Card.Header>
-                {/* <div className="img-square-wrapper pt-2">
-                  <img
-                    className=""
-                    src={destination.image.thumbnail}
-                    alt="Card image cap"
-                    style={{
-                      width: "100%",
-                      objectFit: "cover",
-                      aspectRatio: "16/9",
-                    }}
-                  />
-                </div> */}
                 <ImageGallery thumbnailPosition="right" items={images} />
                 <div className="card-horizontal">
                   <Card.Body className="card-body pt-0 px-0">
@@ -102,19 +68,6 @@ export const DetailDestinasi = () => {
                 <a href="https://www.gps.ie/">gps devices</a>
               </iframe>
             </div>
-            {/* <ReactOwlCarousel className="owl-theme py-3" {...options}>
-              {destination.galery.map((img, index) => (
-                <div key={index} className="item">
-                    <img
-                      src={img}
-                      style={{
-                        height: "200px",
-                        objectFit: "cover",
-                      }}
-                    />
-                </div>
-              ))}
-            </ReactOwlCarousel> */}
           </Col>
         </Row>
       ) : (

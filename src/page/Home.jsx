@@ -147,7 +147,7 @@ export default function Home() {
               Apa Kata Mereka ?
             </h2>
             <div className="d-flex" style={{ gap: "0.8em" }}>
-              <img src="https://placehold.co/320x240" class="rounded"></img>
+              <img src="https://placehold.co/320x240" className="rounded"></img>
               <Card className="w-100">
                 <Card.Header>Header</Card.Header>
                 <Card.Body>
