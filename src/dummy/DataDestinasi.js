@@ -4,12 +4,27 @@ const destinations = [
     name: "Batu Layang Beach",
     description: "A beautiful beach with stunning rock formations.",
     location: "Singkawang, Indonesia",
-    image: "https://placehold.co/1280x720", // Placeholder image URL
+    image: {
+      original: "https://placehold.co/1920x1080",
+      thumbnail: "https://placehold.co/1280x720",
+    }, // Placeholder image URL
     galery: [
-      "https://placehold.co/1280x720",
-      "https://placehold.co/1280x720",
-      "https://placehold.co/1280x720",
-      "https://placehold.co/1280x720",
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
     ],
     slug: "batu-layang-beach",
     information:
@@ -20,8 +35,28 @@ const destinations = [
     name: "Vihara Tri Dharma Bumi Raya",
     description: "A Buddhist temple known for its intricate architecture.",
     location: "Singkawang, Indonesia",
-    image: "https://placehold.co/1280x720", // Placeholder image URL
-    galery: ["https://placehold.co/1280x720"],
+    image: {
+      original: "https://placehold.co/1920x1080",
+      thumbnail: "https://placehold.co/1280x720",
+    }, // Placeholder image URL
+    galery: [
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+    ],
     slug: "vihara-tri-dharma-bumi-raya",
     information:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis sodales placerat. Ut at lacus odio. Sed vel elementum nisl. Phasellus iaculis, turpis sollicitudin vehicula lobortis, nisl justo tempor dui, quis tempor felis ipsum ac sem. Fusce fermentum mauris et diam consequat vulputate. Aenean pellentesque cursus diam, vel mollis neque.",
@@ -31,8 +66,28 @@ const destinations = [
     name: "Kelenteng Tua Pek Kong",
     description: "An ancient Chinese temple with rich cultural heritage.",
     location: "Singkawang, Indonesia",
-    image: "https://placehold.co/1280x720", // Placeholder image URL
-    galery: ["https://placehold.co/1280x720"],
+    image: {
+      original: "https://placehold.co/1920x1080",
+      thumbnail: "https://placehold.co/1280x720",
+    }, // Placeholder image URL
+    galery: [
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+    ],
     slug: "kelenteng-tua-pek-kong",
     information:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis sodales placerat. Ut at lacus odio. Sed vel elementum nisl. Phasellus iaculis, turpis sollicitudin vehicula lobortis, nisl justo tempor dui, quis tempor felis ipsum ac sem. Fusce fermentum mauris et diam consequat vulputate. Aenean pellentesque cursus diam, vel mollis neque.",
@@ -42,8 +97,28 @@ const destinations = [
     name: "Example Destination 1",
     description: "Description of Example Destination 1.",
     location: "Location of Example Destination 1",
-    image: "https://placehold.co/1280x720", // Placeholder image URL
-    galery: ["https://placehold.co/1280x720"],
+    image: {
+      original: "https://placehold.co/1920x1080",
+      thumbnail: "https://placehold.co/1280x720",
+    }, // Placeholder image URL
+    galery: [
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+    ],
     slug: "example-destination-1",
     information:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis sodales placerat. Ut at lacus odio. Sed vel elementum nisl. Phasellus iaculis, turpis sollicitudin vehicula lobortis, nisl justo tempor dui, quis tempor felis ipsum ac sem. Fusce fermentum mauris et diam consequat vulputate. Aenean pellentesque cursus diam, vel mollis neque.",
@@ -53,8 +128,28 @@ const destinations = [
     name: "Example Destination 2",
     description: "Description of Example Destination 2.",
     location: "Location of Example Destination 2",
-    image: "https://placehold.co/1280x720", // Placeholder image URL
-    galery: ["https://placehold.co/1280x720"],
+    image: {
+      original: "https://placehold.co/1920x1080",
+      thumbnail: "https://placehold.co/1280x720",
+    }, // Placeholder image URL
+    galery: [
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+    ],
     slug: "example-destination-2",
     information:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis sodales placerat. Ut at lacus odio. Sed vel elementum nisl. Phasellus iaculis, turpis sollicitudin vehicula lobortis, nisl justo tempor dui, quis tempor felis ipsum ac sem. Fusce fermentum mauris et diam consequat vulputate. Aenean pellentesque cursus diam, vel mollis neque.",
@@ -64,8 +159,28 @@ const destinations = [
     name: "Example Destination 3",
     description: "Description of Example Destination 3.",
     location: "Location of Example Destination 3",
-    image: "https://placehold.co/1280x720", // Placeholder image URL
-    galery: ["https://placehold.co/1280x720"],
+    image: {
+      original: "https://placehold.co/1920x1080",
+      thumbnail: "https://placehold.co/1280x720",
+    }, // Placeholder image URL
+    galery: [
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+      {
+        original: "https://placehold.co/1920x1080",
+        thumbnail: "https://placehold.co/1280x720",
+      },
+    ],
     slug: "example-destination-3",
     information:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis sodales placerat. Ut at lacus odio. Sed vel elementum nisl. Phasellus iaculis, turpis sollicitudin vehicula lobortis, nisl justo tempor dui, quis tempor felis ipsum ac sem. Fusce fermentum mauris et diam consequat vulputate. Aenean pellentesque cursus diam, vel mollis neque.",

@@ -65,7 +65,7 @@ export default function Home() {
                   <Carousel.Item key={destination.id}>
                     <img
                       className="d-block w-100"
-                      src={destination.image}
+                      src={destination.image.thumbnail}
                       alt={destination.name}
                       style={{
                         height: "500px",

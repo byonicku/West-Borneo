@@ -18,7 +18,7 @@
       rgba(87, 97, 73, 0.4) 75%,
       rgba(87, 97, 73, 1) 100%
     ),
-    url("src\\assets\\pulau.webp");
+    url("../assets/pulau.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
