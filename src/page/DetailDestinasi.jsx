@@ -99,7 +99,7 @@ export const DetailDestinasi = () => {
                 <a href="https://www.gps.ie/">gps devices</a>
               </iframe>
             </div>
-            <ReactOwlCarousel className="owl-theme px-2" {...options}>
+            <ReactOwlCarousel className="owl-theme py-3" {...options}>
               {destination.galery.map((img, index) => (
                 <div key={index} className="item">
                     <img

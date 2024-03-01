@@ -92,7 +92,7 @@ export default function Destinasi() {
                   xs={12}
                   md={4}
                   className="pb-3 w3-animate-bottom">
-                  <Card onClick={() => goToDetail(destination.slug)}>
+                  <Card onClick={() => goToDetail(destination.slug)} className="h-100">
                     <Card.Img
                       variant="top"
                       src={destination.image}
