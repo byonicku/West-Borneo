@@ -147,41 +147,20 @@ export default function Home() {
             <div data-aos="fade-right">
             <ReactOwlCarousel className="owl-theme" {...options}>
               {foods.map((food, index) => (
-                <div key={index} className="item">
-                  <Card style={{ width: "18rem", height: "20rem" }}>
-                    <Card.Img
-                      variant="top"
-                      src={food.image}
-                      style={{
-                        height: "110px",
-                        objectFit: "cover",
-                      }}
-                    />
-                    <Card.Body className="food-text">
-                      <Card.Title
-                        style={{
-                          fontWeight: "bold",
-                          fontSize: "1em",
-                          display: "flex",
-                          justifyContent: "center",
-                        }}
-                      >
-                        {food.name}
-                      </Card.Title>
-                      <Card.Text
-                        style={{
-                          fontSize: "0.8em",
-                          padding: 0,
-                          margin: 0,
-                          textAlign: "justify",
-                          textJustify: "inter-word",
-                        }}
-                      >
-                        {food.description}
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                <div
+                className="card-flyer h-100"
+                key={index}
+                style={{ width: "18rem" }}>
+                <div className="text-box">
+                  <div className="image-box">
+                    <img src={food.image} alt="" />
+                  </div>
+                  <div className="text-container h-100">
+                    <h6>{food.name}</h6>
+                    <p>{food.description}</p>
+                  </div>
                 </div>
+              </div>
               ))}
             </ReactOwlCarousel>
             </div>

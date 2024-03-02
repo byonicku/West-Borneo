@@ -6,7 +6,7 @@ const foods = [
     },
     {
         name: "Soto Banjar",
-        description: "A traditional soup made with chicken or beef, rice noodles, and various herbs and spices. It is often served with emping (crackers) and sambal (chili sauce).",
+        description: "A traditional soup made with chicken or beef, rice noodles, and various herbs and spices. it's surely taste good",
         image: "https://placeholder.com/150",
     },
     {
