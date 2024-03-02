@@ -48,11 +48,6 @@ export default function Destinasi() {
     navigate(slug);
   };
 
-  const scrollToTop = () => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  };
-
   return (
     <Container fluid>
       <Row className="justify-content-center align-items-center">
@@ -93,12 +88,13 @@ export default function Destinasi() {
             {destinationFilter.length > 0 ? (
               destinationFilter.map((destination) => (
                 <div
-                  class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto "
+                  key={destination.id}
+                  className="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto"
                   onClick={() => {
                     goToDetail(`${destination.slug}`);
                   }}>
                   <img src={destination.image.thumbnail} alt="" />
-                  <article class="text-left" style={{ position: "inherit" }}>
+                  <article className="text-left" style={{ position: "inherit" }}>
                     <h2>{destination.name}</h2>
                     <h4>{destination.description}</h4>
                   </article>

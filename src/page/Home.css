@@ -227,7 +227,6 @@
 }
 .card-flyer {
   background: #ffffff;
-  margin-top: 50px;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -ms-transition: all 0.2s ease-in;
@@ -243,7 +242,6 @@
   -ms-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  margin-top: 50px;
 }
 .card-flyer .text-box p {
   margin-top: 10px;
@@ -262,4 +260,28 @@
   font-family: "Roboto Black", sans-serif;
   letter-spacing: 1px;
   color: #00acc1;
+}
+
+@media (min-width: 768px) {
+  .flexible {
+    text-align: center;
+  }
+
+  .apa-kata-image {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .flexible {
+    display: flex;
+    align-items: center;
+  }
+
+  .apa-kata-image {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
 }

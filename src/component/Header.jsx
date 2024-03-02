@@ -32,7 +32,7 @@ export default function Header() {
 
   return (
     <Navbar
-      expand="lg"
+      expand="sm"
       fixed="top"
       className={`pt-3 ${scrolled ? "scrolled-navbar" : "unscrolled-navbar"}`}>
       <Container>

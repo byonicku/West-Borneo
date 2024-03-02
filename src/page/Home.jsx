@@ -137,7 +137,7 @@ export default function Home() {
                 );
               })}
             </Carousel>
-            <h2 className="daftar mt-5" data-aos="fade-right">
+            <h2 className="daftar mt-5 mb-3" data-aos="fade-right">
               Explorasi Makanan Khas Kalimantan Barat
             </h2>
             <div data-aos="fade-right">
@@ -164,18 +164,22 @@ export default function Home() {
             <h2
               className="text-white mt-5 text-start apa-kata-mereka-header"
               data-aos="fade-left">
-              What They Said ?
+              Apa Kata Mereka?
             </h2>
             <div
-              className="d-flex"
+              className="flexible"
               style={{ gap: "0.8em" }}
               data-aos="fade-left">
-              <img src="https://placehold.co/320x240" className="rounded"></img>
+              <img src="src\assets\pulau.webp" className="apa-kata-image rounded" style={{ 
+                width: "300px",
+                height: "100%",
+                objectFit: "cover",
+               }}></img>
               <Card className="w-100 bg-transparent border-0 text-white">
                 <Card.Header
                   className="bg-transparent border-0 apa-kata-mereka-header"
                   style={{ fontSize: "1.4em" }}>
-                  Chao Ni Ma
+                  Kalimantan Barat? Sangat Memukau!
                 </Card.Header>
                 <Card.Body>
                   <p
@@ -183,9 +187,16 @@ export default function Home() {
                       textAlign: "justify",
                       textJustify: "inter-word",
                     }}>
-                    Kali kali apa yang playboy ? Kalimantan Xixixixixi
+                    Kalimantan Barat di Indonesia memukau dengan keindahan
+                      alamnya, keberagaman budayanya, dan keramahan penduduknya.
+                      Dari hutan-hutan yang hijau hingga sungai-sungai yang
+                      mempesona, setiap sudutnya menyiratkan keajaiban yang
+                      menghipnotis hati.
                   </p>
                 </Card.Body>
+                <Card.Footer className="bg-transparent border-0">
+                    - Traveler, 2024
+                </Card.Footer>
               </Card>
             </div>
           </Container>
