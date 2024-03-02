@@ -22,7 +22,7 @@ export default function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    Aos.init({ duration: 1000});
+    Aos.init({ duration: 1000 });
   }, []);
 
   const options = {
@@ -71,8 +71,7 @@ export default function Home() {
               className="text-white border-0"
               style={{
                 backgroundColor: "rgba(0, 0, 0, 0.3)",
-              }}
-            >
+              }}>
               <Card.Body>
                 <Card.Title>
                   <h1>
@@ -91,98 +90,100 @@ export default function Home() {
       <Row className="justify-content-center align-items-center">
         <Col xs={12} md={8}>
           <Container className="d-flex flex-column my-5">
-                <h2 className="daftar" data-aos="fade-up" >Explorasi Tempat Wisata</h2>
-                <Carousel data-aos="fade-up">
-                  {destinations.map((destination) => {
-                    return (
-                      <Carousel.Item
-                        key={destination.id}
-                        onClick={() => {
-                          scrollToTop();
-                          navigate(`/destinasi/${destination.slug}`);
+            <h2 className="daftar" data-aos="fade-up">
+              Explorasi Tempat Wisata
+            </h2>
+            <Carousel data-aos="fade-up">
+              {destinations.map((destination) => {
+                return (
+                  <Carousel.Item
+                    key={destination.id}
+                    onClick={() => {
+                      scrollToTop();
+                      navigate(`/destinasi/${destination.slug}`);
+                    }}>
+                    <div style={{ position: "relative" }}>
+                      <img
+                        className="d-block w-100"
+                        src={destination.image.thumbnail}
+                        alt={destination.name}
+                        style={{
+                          cursor: "pointer",
+                          height: "500px",
+                          objectFit: "cover",
+                          transition: "filter 0.3s ease-in-out",
                         }}
-                      >
-                        <div style={{ position: "relative" }}>
-                          <img
-                            className="d-block w-100"
-                            src={destination.image.thumbnail}
-                            alt={destination.name}
-                            style={{
-                              cursor: "pointer",
-                              height: "500px",
-                              objectFit: "cover",
-                              transition: "filter 0.3s ease-in-out", 
-                            }}
-                            // Apply the filter on hover
-                            onMouseOver={(e) =>
-                              (e.currentTarget.style.filter = "brightness(70%)")
-                            }
-                            // Reset the filter on mouse leave
-                            onMouseLeave={(e) =>
-                              (e.currentTarget.style.filter =
-                                "brightness(100%)")
-                            }
-                          />
-                          <div className="hover-carousel-effect" />
-                        </div>
-                        <Carousel.Caption
-                          style={{
-                            backgroundColor: "rgba(0, 0, 0, 0.3)",
-                            borderRadius: "10px",
-                          }}
-                          className="daftar-text"
-                        >
-                          <h3 style={{ fontWeight: "bold" }}>
-                            {destination.name}
-                          </h3>
-                          <p>{destination.description}</p>
-                        </Carousel.Caption>
-                      </Carousel.Item>
-                    );
-                  })}
-                </Carousel>
+                        // Apply the filter on hover
+                        onMouseOver={(e) =>
+                          (e.currentTarget.style.filter = "brightness(70%)")
+                        }
+                        // Reset the filter on mouse leave
+                        onMouseLeave={(e) =>
+                          (e.currentTarget.style.filter = "brightness(100%)")
+                        }
+                      />
+                      <div className="hover-carousel-effect" />
+                    </div>
+                    <Carousel.Caption
+                      style={{
+                        backgroundColor: "rgba(0, 0, 0, 0.3)",
+                        borderRadius: "10px",
+                      }}
+                      className="daftar-text">
+                      <h3 style={{ fontWeight: "bold" }}>{destination.name}</h3>
+                      <p>{destination.description}</p>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                );
+              })}
+            </Carousel>
             <h2 className="daftar mt-5" data-aos="fade-right">
               Explorasi Makanan Khas Kalimantan Barat
             </h2>
             <div data-aos="fade-right">
-            <ReactOwlCarousel className="owl-theme" {...options}>
-              {foods.map((food, index) => (
-                <div
-                className="card-flyer h-100"
-                key={index}
-                style={{ width: "18rem" }}>
-                <div className="text-box">
-                  <div className="image-box">
-                    <img src={food.image} alt="" />
+              <ReactOwlCarousel className="owl-theme" {...options}>
+                {foods.map((food, index) => (
+                  <div
+                    className="card-flyer h-100"
+                    key={index}
+                    style={{ width: "18rem" }}>
+                    <div className="text-box">
+                      <div className="image-box">
+                        <img src={food.image} alt="" />
+                      </div>
+                      <div className="text-container h-100">
+                        <h6>{food.name}</h6>
+                        <p>{food.description}</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="text-container h-100">
-                    <h6>{food.name}</h6>
-                    <p>{food.description}</p>
-                  </div>
-                </div>
-              </div>
-              ))}
-            </ReactOwlCarousel>
+                ))}
+              </ReactOwlCarousel>
             </div>
-            
-            <h2 className="text-white mt-5 text-start apa-kata-mereka-header" data-aos="fade-left">
-              Apa Kata Mereka ?
+
+            <h2
+              className="text-white mt-5 text-start apa-kata-mereka-header"
+              data-aos="fade-left">
+              What They Said ?
             </h2>
-            <div className="d-flex" style={{ gap: "0.8em" }} data-aos="fade-left">
+            <div
+              className="d-flex"
+              style={{ gap: "0.8em" }}
+              data-aos="fade-left">
               <img src="https://placehold.co/320x240" className="rounded"></img>
-              <Card className="w-100">
-                <Card.Header>Header</Card.Header>
+              <Card className="w-100 bg-transparent border-0 text-white">
+                <Card.Header
+                  className="bg-transparent border-0 apa-kata-mereka-header"
+                  style={{ fontSize: "1.4em" }}>
+                  Chao Ni Ma
+                </Card.Header>
                 <Card.Body>
                   <p
                     style={{
                       textAlign: "justify",
                       textJustify: "inter-word",
-                    }}
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur iaculis sodales placerat. Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit. Curabitur iaculis sodales
-                    placerat.
+                    }}>
+                    Kali kali apa yang playboy ? Kalimantan Xixixixixi
                   </p>
                 </Card.Body>
               </Card>
@@ -206,7 +207,6 @@ export default function Home() {
                   placeholder="Masukkan nama Anda"
                   aria-label="Nama"
                   aria-describedby="basic-addon1"
-                  
                 />
               </InputGroup>
               <InputGroup className="mb-3">
@@ -218,7 +218,6 @@ export default function Home() {
                   placeholder="Masukkan email Anda"
                   aria-label="Email"
                   aria-describedby="basic-addon1"
-                  
                 />
               </InputGroup>
               <InputGroup className="mb-3 w-100">
@@ -229,7 +228,6 @@ export default function Home() {
                   placeholder="Masukkan pesan Anda"
                   aria-label="Pesan"
                   aria-describedby="basic-addon1"
-                  
                 />
               </InputGroup>
               <div className="d-flex justify-content-center">

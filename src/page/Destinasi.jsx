@@ -87,43 +87,22 @@ export default function Destinasi() {
           </div>
         </Col>
       </Row>
-      <Container>
+      <Container className="contenedor text-center">
         {!loading ? (
           <Row className="justify-content-center">
             {destinationFilter.length > 0 ? (
               destinationFilter.map((destination) => (
-                <Col
-                  key={destination.id}
-                  xs={12}
-                  md={4}
-                  className="pb-3 w3-animate-bottom">
-                  <Card
-                    onClick={() => {
-                      scrollToTop();
-                      goToDetail(destination.slug)
-                    }}
-                    className="h-100">
-                    <Card.Img
-                      variant="top"
-                      src={destination.image.thumbnail}
-                      style={{
-                        height: "200px",
-                        objectFit: "cover",
-                      }}
-                    />
-                    <Card.Body
-                      style={{
-                        backgroundColor: "rgba(203, 203, 203, 1)",
-                      }}>
-                      <Card.Title className="destinasi-head-text">
-                        {destination.name}
-                      </Card.Title>
-                      <Card.Text className="destinasi-desc-text">
-                        {destination.description}
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
+                <div
+                  class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto "
+                  onClick={() => {
+                    goToDetail(`${destination.slug}`);
+                  }}>
+                  <img src={destination.image.thumbnail} alt="" />
+                  <article class="text-left" style={{ position: "inherit" }}>
+                    <h2>{destination.name}</h2>
+                    <h4>{destination.description}</h4>
+                  </article>
+                </div>
               ))
             ) : (
               <h1 className="text-white text-center w3-animate-zoom">
