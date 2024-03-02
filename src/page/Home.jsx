@@ -7,6 +7,7 @@ import destinations from "../dummy/DataDestinasi.js";
 import foods from "../dummy/DataMakanan.js";
 import ReactOwlCarousel from "react-owl-carousel";
 import { useNavigate } from "react-router-dom";
+import FoodCard from "../component/card/FoodCard";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -105,11 +106,11 @@ export default function Home() {
               })}
             </Carousel>
 
-            <h2 className="daftar mt-5">Explorasi Makanan Khas Kalimantan Barat</h2>
-            <ReactOwlCarousel className="owl-theme" {...options}>
-              {foods.map((food, index) => (
-                <div key={index} className="item">
-                  <Card style={{ width: "18rem", height: "20rem" }}>
+            <h2 className="daftar mt-5">
+              Explorasi Makanan Khas Kalimantan Barat
+            </h2>
+            {/* CARD NYA SINI DLU YAK :V
+            <Card style={{ width: "18rem", height: "20rem" }}>
                     <Card.Img
                       variant="top"
                       src={food.image}
@@ -139,10 +140,26 @@ export default function Home() {
                         {food.description}
                       </Card.Text>
                     </Card.Body>
-                  </Card>
+                  </Card> */}
+            <ReactOwlCarousel className="owl-theme h-100" {...options}>
+              {foods.map((food, index) => (
+                <div
+                  class="card-flyer h-100"
+                  key={index}
+                  style={{ width: "18rem" }}>
+                  <div class="text-box">
+                    <div class="image-box">
+                      <img src={food.image} alt="" />
+                    </div>
+                    <div class="text-container h-100">
+                      <h6>{food.name}</h6>
+                      <p>{food.description}</p>
+                    </div>
+                  </div>
                 </div>
               ))}
             </ReactOwlCarousel>
+
             <h2 className="text-white mt-5 text-start apa-kata-mereka-header">
               Apa Kata Mereka ?
             </h2>
