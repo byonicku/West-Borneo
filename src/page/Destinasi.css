@@ -37,7 +37,7 @@ h1 {
 }
 
 .container_foto {
-  background-color: rgba(57, 62, 93, 0.7);
+  background-color: #292f35;
   padding: 0;
   overflow: hidden;
   max-width: 350px;
@@ -74,11 +74,8 @@ h1 {
   top: 0;
   left: 0;
   opacity: 0.4;
-  -webkit-transition: all 4s ease;
-  -moz-transition: all 4s ease;
-  -o-transition: all 4s ease;
-  -ms-transition: all 4s ease;
-  transition: all 4s ease;
+  transition: all 1s ease;
+  /* transform: scale(3); */
 }
 
 .ver_mas {
@@ -118,8 +115,7 @@ h1 {
 
 .container_foto:hover img {
   opacity: 0.1;
-  transform: scale(1.5);
-  animation-duration: 100ms;
+  transform: scale(2.5);
 }
 
 /* .container_foto:hover .ver_mas {

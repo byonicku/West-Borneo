@@ -57,7 +57,7 @@
     rgba(54, 62, 63, 0) 100%
   ); */
   /* KASI GRADIEN jELEK MENDING KASI WARNA TEGAS ANJAY */
-  
+
   /* sip */
 }
 
@@ -69,6 +69,13 @@
     rgba(108, 108, 108, 0.4002393193605567) 35%,
     rgba(108, 108, 108, 0) 100%
   );
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .unscrolled-navbar {
+    transition: background-color 0.3s ease-in-out;
+    background: rgb(54, 62, 63);
+  }
 }
 
 .scrolled-navbar .navbar-brand h2 {

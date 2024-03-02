@@ -94,7 +94,9 @@ export default function Destinasi() {
                     goToDetail(`${destination.slug}`);
                   }}>
                   <img src={destination.image.thumbnail} alt="" />
-                  <article className="text-left" style={{ position: "inherit" }}>
+                  <article
+                    className="text-left"
+                    style={{ position: "inherit", paddingBottom: 0 }}>
                     <h2>{destination.name}</h2>
                     <h4>{destination.description}</h4>
                   </article>
