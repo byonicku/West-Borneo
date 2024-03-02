@@ -18,9 +18,8 @@ export const DetailDestinasi = () => {
       (destination) => destination.slug === slug
     );
     setDestination(foundDestination);
-    setImages([...images, foundDestination.image]);
-    setImages([...images, ...foundDestination.galery]);
-
+    setImages([foundDestination.image, ...foundDestination.galery]);
+    
     setTimeout(() => {
       setLoading(false);
     }, 1250);

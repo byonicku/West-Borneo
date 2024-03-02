@@ -60,7 +60,7 @@ export default function Home() {
       <Row className="justify-content-center align-items-center">
         <Col xs={12} md={8}>
           <Container className="d-flex flex-column my-5">
-            <h2 className="daftar">Daftar Tempat Wisata</h2>
+            <h2 className="daftar">Explorasi Tempat Wisata</h2>
             <Carousel>
               {destinations.map((destination) => {
                 return (
@@ -105,7 +105,7 @@ export default function Home() {
               })}
             </Carousel>
 
-            <h2 className="daftar mt-5">Daftar Makanan Khas</h2>
+            <h2 className="daftar mt-5">Explorasi Makanan Khas Kalimantan Barat</h2>
             <ReactOwlCarousel className="owl-theme" {...options}>
               {foods.map((food, index) => (
                 <div key={index} className="item">
