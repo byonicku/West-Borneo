@@ -23,10 +23,10 @@ export default function Header() {
       }
     };
 
-    document.addEventListener("scroll", handleScroll);
+    document.addEventListener("scroll", handleScroll, {passive: true});
 
     return () => {
-      document.removeEventListener("scroll", handleScroll);
+      document.removeEventListener("scroll", handleScroll, {passive: true});
     };
   }, [scrolled]);
 

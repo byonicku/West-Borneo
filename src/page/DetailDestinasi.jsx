@@ -59,7 +59,7 @@ export const DetailDestinasi = () => {
                 </div>
               </Card>
             </div>
-            <div className="d-flex justify-content-center w3-animate-opacity">
+            <div className="d-flex justify-content-center w3-animate-opacity mb-3">
               <iframe
                 width="100%"
                 height="300"

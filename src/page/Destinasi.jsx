@@ -48,6 +48,11 @@ export default function Destinasi() {
     navigate(slug);
   };
 
+  const scrollToTop = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  };
+
   return (
     <Container fluid>
       <Row className="justify-content-center align-items-center">
@@ -93,7 +98,10 @@ export default function Destinasi() {
                   md={4}
                   className="pb-3 w3-animate-bottom">
                   <Card
-                    onClick={() => goToDetail(destination.slug)}
+                    onClick={() => {
+                      scrollToTop();
+                      goToDetail(destination.slug)
+                    }}
                     className="h-100">
                     <Card.Img
                       variant="top"
@@ -113,7 +121,6 @@ export default function Destinasi() {
                       <Card.Text className="destinasi-desc-text">
                         {destination.description}
                       </Card.Text>
-                      {/* Tamabahin tombol detail yes */}
                     </Card.Body>
                   </Card>
                 </Col>
