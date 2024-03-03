@@ -17,7 +17,6 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { useEffect } from "react";
 import Aos from "aos";
-import PulauImg from "../assets/pulau.webp";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -172,7 +171,7 @@ export default function Home() {
               style={{ gap: "0.8em" }}
               data-aos="fade-left">
               <img
-                src={PulauImg}
+                src="/pulau.webp"
                 className="apa-kata-image rounded"
                 style={{
                   width: "300px",
