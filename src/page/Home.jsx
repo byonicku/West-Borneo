@@ -171,7 +171,7 @@ export default function Home() {
               style={{ gap: "0.8em" }}
               data-aos="fade-left">
               <img
-                src="src\assets\pulau.webp"
+                src="../src/assets/pulau.webp"
                 className="apa-kata-image rounded"
                 style={{
                   width: "300px",
