@@ -89,7 +89,7 @@ export default function Destinasi() {
               destinationFilter.map((destination) => (
                 <div
                   key={destination.id}
-                  className="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto"
+                  className="col-lg-4 col-md-12 container_foto"
                   onClick={() => {
                     goToDetail(`${destination.slug}`);
                   }}>

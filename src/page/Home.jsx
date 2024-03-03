@@ -170,11 +170,14 @@ export default function Home() {
               className="flexible"
               style={{ gap: "0.8em" }}
               data-aos="fade-left">
-              <img src="src\assets\pulau.webp" className="apa-kata-image rounded" style={{ 
-                width: "300px",
-                height: "100%",
-                objectFit: "cover",
-               }}></img>
+              <img
+                src="src\assets\pulau.webp"
+                className="apa-kata-image rounded"
+                style={{
+                  width: "300px",
+                  height: "100%",
+                  objectFit: "cover",
+                }}></img>
               <Card className="w-100 bg-transparent border-0 text-white">
                 <Card.Header
                   className="bg-transparent border-0 apa-kata-mereka-header"
@@ -188,14 +191,14 @@ export default function Home() {
                       textJustify: "inter-word",
                     }}>
                     Kalimantan Barat di Indonesia memukau dengan keindahan
-                      alamnya, keberagaman budayanya, dan keramahan penduduknya.
-                      Dari hutan-hutan yang hijau hingga sungai-sungai yang
-                      mempesona, setiap sudutnya menyiratkan keajaiban yang
-                      menghipnotis hati.
+                    alamnya, keberagaman budayanya, dan keramahan penduduknya.
+                    Dari hutan-hutan yang hijau hingga sungai-sungai yang
+                    mempesona, setiap sudutnya menyiratkan keajaiban yang
+                    menghipnotis hati.
                   </p>
                 </Card.Body>
-                <Card.Footer className="bg-transparent border-0">
-                    - Traveler, 2024
+                <Card.Footer className="bg-transparent hrs-kiri border-0">
+                  - Traveler, 2024
                 </Card.Footer>
               </Card>
             </div>
