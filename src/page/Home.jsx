@@ -71,7 +71,8 @@ export default function Home() {
               className="text-white border-0"
               style={{
                 backgroundColor: "rgba(0, 0, 0, 0.3)",
-              }}>
+              }}
+            >
               <Card.Body>
                 <Card.Title>
                   <h1>
@@ -89,7 +90,7 @@ export default function Home() {
       </Row>
       <Row className="justify-content-center align-items-center">
         <Col xs={12} md={8}>
-          <Container className="d-flex flex-column my-5">
+          <Container className="d-flex flex-column my-5" fluid>
             <h2 className="daftar" data-aos="fade-up">
               Explorasi Tempat Wisata
             </h2>
@@ -101,15 +102,15 @@ export default function Home() {
                     onClick={() => {
                       scrollToTop();
                       navigate(`/destinasi/${destination.slug}`);
-                    }}>
-                    <div style={{ position: "relative" }}>
+                    }}
+                  >
+                    <div>
                       <img
                         className="d-block w-100"
                         src={destination.image.thumbnail}
                         alt={destination.name}
                         style={{
                           cursor: "pointer",
-                          height: "500px",
                           objectFit: "cover",
                           transition: "filter 0.3s ease-in-out",
                         }}
@@ -129,16 +130,23 @@ export default function Home() {
                         backgroundColor: "rgba(0, 0, 0, 0.3)",
                         borderRadius: "10px",
                       }}
-                      className="daftar-text">
-                      <h3 style={{ fontWeight: "bold" }}>{destination.name}</h3>
-                      <p>{destination.description}</p>
+                    >
+                      <h3
+                        style={{ fontWeight: "bold" }}
+                        className="daftar-text"
+                      >
+                        {destination.name}
+                      </h3>
+                      <p className="daftar-text-desc">
+                        {destination.description}
+                      </p>
                     </Carousel.Caption>
                   </Carousel.Item>
                 );
               })}
             </Carousel>
             <h2 className="daftar mt-5 mb-3" data-aos="fade-right">
-              Explorasi Makanan Khas Kalimantan Barat
+              Explorasi Makanan Khas
             </h2>
             <div data-aos="fade-right">
               <ReactOwlCarousel className="owl-theme" {...options}>
@@ -146,12 +154,13 @@ export default function Home() {
                   <div
                     className="card-flyer h-100"
                     key={index}
-                    style={{ width: "18rem" }}>
+                    style={{ width: "18rem" }}
+                  >
                     <div className="text-box">
                       <div className="image-box">
                         <img src={food.image} alt="" />
                       </div>
-                      <div className="text-container h-100">
+                      <div className="text-container">
                         <h6>{food.name}</h6>
                         <p>{food.description}</p>
                       </div>
@@ -163,45 +172,46 @@ export default function Home() {
 
             <h2
               className="text-white mt-5 text-start apa-kata-mereka-header"
-              data-aos="fade-left">
+              data-aos="fade-left"
+            >
               Apa Kata Mereka?
             </h2>
-            <div
-              className="flexible"
-              style={{ gap: "0.8em" }}
-              data-aos="fade-left">
-              <img
-                src="/pulau.webp"
-                className="apa-kata-image rounded"
-                style={{
-                  width: "300px",
-                  height: "100%",
-                  objectFit: "cover",
-                }}></img>
-              <Card className="w-100 bg-transparent border-0 text-white">
-                <Card.Header
-                  className="bg-transparent border-0 apa-kata-mereka-header"
-                  style={{ fontSize: "1.4em" }}>
-                  Kalimantan Barat? Sangat Memukau!
-                </Card.Header>
-                <Card.Body>
-                  <p
-                    style={{
-                      textAlign: "justify",
-                      textJustify: "inter-word",
-                    }}>
-                    Kalimantan Barat di Indonesia memukau dengan keindahan
-                    alamnya, keberagaman budayanya, dan keramahan penduduknya.
-                    Dari hutan-hutan yang hijau hingga sungai-sungai yang
-                    mempesona, setiap sudutnya menyiratkan keajaiban yang
-                    menghipnotis hati.
-                  </p>
-                </Card.Body>
-                <Card.Footer className="bg-transparent hrs-kiri border-0">
-                  - Traveler, 2024
-                </Card.Footer>
-              </Card>
-            </div>
+            <Row>
+              <Col sm={12} md={6}>
+                <img
+                  src="/pulau.webp"
+                  className="apa-kata-image rounded w-100 h-100"
+                  data-aos="fade-left"
+                  style={{
+                    objectFit: "cover",
+                  }}
+                ></img>
+              </Col>
+              <Col sm={12} md={6}>
+                <div style={{ gap: "0.8rem" }} data-aos="fade-left">
+                  <Card className="bg-transparent border-0 text-white">
+                    <Card.Header
+                      className="bg-transparent border-0 apa-kata-mereka-header px-0 py-0"
+                      style={{ fontSize: "1.4rem", fontWeight: "500" }}
+                    >
+                      Kalimantan Barat? Sangat Memukau!
+                    </Card.Header>
+                    <Card.Body className="px-0 py-0">
+                      <p className="apa-kata-mereka-text">
+                        Kalimantan Barat di Indonesia memukau dengan keindahan
+                        alamnya, keberagaman budayanya, dan keramahan
+                        penduduknya. Dari hutan-hutan yang hijau hingga
+                        sungai-sungai yang mempesona, setiap sudutnya
+                        menyiratkan keajaiban yang menghipnotis hati.
+                      </p>
+                    </Card.Body>
+                    <Card.Footer className="bg-transparent hrs-kiri border-0 px-0 py-0 apa-kata-mereka-footer">
+                      - Traveler, 2024
+                    </Card.Footer>
+                  </Card>
+                </div>
+              </Col>
+            </Row>
           </Container>
           <Container data-aos="zoom-in">
             <h2 className="mb-3 kritik-saran-header text-white">

@@ -6,7 +6,7 @@ export default function Footer() {
         <footer>
             <Container>
                 <div className="text-center text-white py-3">
-                    <p>&copy; 2024 Pesona Indonesia</p>
+                    <p>&copy; 2024 West Borneo</p>
                 </div>
             </Container>
         </footer>

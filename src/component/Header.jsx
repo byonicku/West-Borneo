@@ -32,17 +32,17 @@ export default function Header() {
 
   return (
     <Navbar
-      expand="sm"
+      expand="lg"
       fixed="top"
       className={`pt-3 ${scrolled ? "scrolled-navbar" : "unscrolled-navbar"}`}>
       <Container>
         <Navbar.Brand style={{ cursor: "pointer" }} onClick={() => scrollToTop()}>
           <div className="logo">
-            <h2>Pesona Indonesia</h2>
+            <h2>West Borneo</h2>
           </div>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarNavDropdown">
-          <div className="navbar-toggler-icon" />
+        <Navbar.Toggle aria-controls="navbarNavDropdown" className="border-white">
+          <div className="navbar-toggler-icon navbar-dark" />
         </Navbar.Toggle>
         <Navbar.Collapse id="navbarNavDropdown">
           <Nav
@@ -51,17 +51,17 @@ export default function Header() {
                 ? "scrolled-header-content ms-auto"
                 : "header-content ms-auto"
             }>
-            <Button onClick={() => moving("/")} className="nav-link text-white" variant="none">
+            <Button onClick={() => moving("/")} className="nav-link" variant="none">
               Beranda
             </Button>
             <Button
               onClick={() => moving("/about")}
-              className="nav-link text-white" variant="none">
+              className="nav-link" variant="none">
               Tentang Kami
             </Button>
             <Button
               onClick={() => moving("/destinasi")}
-              className="nav-link text-white" variant="none">
+              className="nav-link" variant="none">
               Destinasi
             </Button>
           </Nav>

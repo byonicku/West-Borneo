@@ -3,12 +3,12 @@
 }
 
 .header-content {
-  font-size: 25px;
+  font-size: 2rem;
   font-family: "Poppins", sans-serif;
 }
 
 .scrolled-header-content {
-  font-size: 25px;
+  font-size: 2rem;
   font-family: "Poppins", sans-serif;
 }
 
@@ -16,49 +16,50 @@
   font-size: 20px;
   font-weight: 500;
   transition: 0.3s;
+  color: white;
+  box-shadow: none;
 }
 
 .header-content .nav-link:hover {
   text-shadow: 0 0 3px white;
+  color: white;
 }
 
 .header-content .nav-link:active {
   text-shadow: 0 0 3px white;
+  color: white;
 }
 
 .header-content .nav-link:focus {
   text-shadow: 0 0 3px white;
+  color: white;
 }
 
 .scrolled-header-content .nav-link {
   font-size: 20px;
   font-weight: 500;
   transition: 0.3s;
+  color: white;
+  box-shadow: none;
 }
 
 .scrolled-header-content .nav-link:hover {
-  text-shadow: 0 0 1px black;
+  text-shadow: 0 0 3px white;
+  color: white;
 }
 
 .scrolled-header-content .nav-link:active {
-  text-shadow: 0 0 1px black;
+  text-shadow: 0 0 3px white;
+  color: white;
 }
 .scrolled-header-content .nav-link:focus {
-  text-shadow: 0 0 1px black;
+  text-shadow: 0 0 3px white;
+  color: white;
 }
 
 .scrolled-navbar {
   transition: background-color 0.3s ease-in-out;
   background: rgb(54, 62, 63);
-  /* background: linear-gradient(
-    180deg,
-    rgba(54, 62, 63, 1) 0%,
-    rgba(54, 62, 63, 0.8) 80%,
-    rgba(54, 62, 63, 0) 100%
-  ); */
-  /* KASI GRADIEN jELEK MENDING KASI WARNA TEGAS ANJAY */
-
-  /* sip */
 }
 
 .unscrolled-navbar {
@@ -71,7 +72,7 @@
   );
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 300px) and (max-width: 992px) {
   .unscrolled-navbar {
     transition: background-color 0.3s ease-in-out;
     background: rgb(54, 62, 63);
@@ -84,4 +85,12 @@
 
 .scrolled-navbar .nav-link {
   color: #cbcdcb !important;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
 }

@@ -173,9 +173,11 @@ export default function Destinasi(props) {
           <Row className="justify-content-center">
             {destinationFilter.length > 0 ? (
               destinationFilter.map((destination) => (
-                <div
+                <Col
+                  lg={4}
+                  md={12}
                   key={destination.id}
-                  className="col-lg-4 col-md-12 container_foto"
+                  className="container_foto"
                   onClick={() => {
                     goToDetail(`${destination.slug}`);
                   }}
@@ -183,12 +185,12 @@ export default function Destinasi(props) {
                   <img src={destination.image.thumbnail} alt="" />
                   <article
                     className="text-left"
-                    style={{ position: "inherit", paddingBottom: 0 }}
+                    style={{ position: "inherit" }}
                   >
                     <h2>{destination.name}</h2>
                     <h4>{destination.description}</h4>
                   </article>
-                </div>
+                </Col>
               ))
             ) : (
               <h1 className="text-white text-center w3-animate-zoom">
