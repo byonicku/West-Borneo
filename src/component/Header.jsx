@@ -38,7 +38,7 @@ export default function Header() {
       <Container>
         <Navbar.Brand style={{ cursor: "pointer" }} onClick={() => scrollToTop()}>
           <div className="logo">
-            <h2>Pesona Indonesia</h2>
+            <img src="../logo.png" alt="logo" height="80px" />
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNavDropdown">
