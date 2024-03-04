@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+
   const navigate = useNavigate();
   const scrollToTop = () => {
     document.body.scrollTop = 0;
@@ -13,6 +15,7 @@ export default function Header() {
   const moving = (link) => {
     scrollToTop();
     navigate(link);
+    setExpanded(false);
   };
 
   useEffect(() => {
@@ -23,10 +26,10 @@ export default function Header() {
       }
     };
 
-    document.addEventListener("scroll", handleScroll, {passive: true});
+    document.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => {
-      document.removeEventListener("scroll", handleScroll, {passive: true});
+      document.removeEventListener("scroll", handleScroll, { passive: true });
     };
   }, [scrolled]);
 
@@ -34,14 +37,23 @@ export default function Header() {
     <Navbar
       expand="lg"
       fixed="top"
-      className={`pt-3 ${scrolled ? "scrolled-navbar" : "unscrolled-navbar"}`}>
+      expanded={expanded}
+      className={`pt-3 ${scrolled ? "scrolled-navbar" : "unscrolled-navbar"}`}
+    >
       <Container>
-        <Navbar.Brand style={{ cursor: "pointer" }} onClick={() => scrollToTop()}>
+        <Navbar.Brand
+          style={{ cursor: "pointer" }}
+          onClick={() => scrollToTop()}
+        >
           <div className="logo">
             <img src="../logo.png" alt="logo" height="80px" />
           </div>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarNavDropdown" className="border-white">
+        <Navbar.Toggle
+          aria-controls="navbarNavDropdown"
+          className="border-white"
+          onClick={() => setExpanded(!expanded)}
+        >
           <div className="navbar-toggler-icon navbar-dark" />
         </Navbar.Toggle>
         <Navbar.Collapse id="navbarNavDropdown">
@@ -50,18 +62,27 @@ export default function Header() {
               scrolled
                 ? "scrolled-header-content ms-auto"
                 : "header-content ms-auto"
-            }>
-            <Button onClick={() => moving("/")} className="nav-link" variant="none">
+            }
+          >
+            <Button
+              onClick={() => moving("/")}
+              className="nav-link"
+              variant="none"
+            >
               Beranda
             </Button>
             <Button
               onClick={() => moving("/about")}
-              className="nav-link" variant="none">
+              className="nav-link"
+              variant="none"
+            >
               Tentang Kami
             </Button>
             <Button
               onClick={() => moving("/destinasi")}
-              className="nav-link" variant="none">
+              className="nav-link"
+              variant="none"
+            >
               Destinasi
             </Button>
           </Nav>

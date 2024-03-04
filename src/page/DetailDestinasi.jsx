@@ -38,7 +38,7 @@ export const DetailDestinasi = () => {
               <Card className="card bg-transparent border-0 text-white">
                 <Card.Header
                   className="card-header text-start bg-transparent border-0 ps-0"
-                  style={{ fontWeight: "bold", fontSize: "1.24em" }}
+                  style={{ fontWeight: "bold", fontSize: "1.6rem" }}
                 >
                   {destination.name}
                 </Card.Header>

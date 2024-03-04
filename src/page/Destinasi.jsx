@@ -119,7 +119,8 @@ export default function Destinasi(props) {
                   </h1>
                 </Card.Title>
                 <Card.Text>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Bingung mau liburan kemana? Ayo, cari destinasi wisata yang
+                  kamu inginkan di Kalimantan Barat!{" "}
                 </Card.Text>
                 <InputGroup className="mb-2">
                   <Form.Control
@@ -212,9 +213,15 @@ export default function Destinasi(props) {
                 </Col>
               ))
             ) : (
-              <h1 className="text-white text-center w3-animate-zoom">
-                404 Not Found
-              </h1>
+              <div className="w3-animate-zoom">
+                <div>
+                  <img src="../logo.png" alt="No Data"></img>
+                  <h1 className="text-white text-center" style={{ 
+                    fontFamily: "Poppins",
+                  }}>404 Not Found</h1>
+                </div>
+                
+              </div>
             )}
           </Row>
         ) : (

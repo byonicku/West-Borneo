@@ -95,7 +95,7 @@ export default function Home() {
               Explorasi Tempat Wisata
             </h2>
             <Carousel data-aos="fade-up">
-              {destinations.map((destination) => {
+              {destinations.slice(0, 5).map((destination) => {
                 return (
                   <Carousel.Item
                     key={destination.id}
@@ -113,7 +113,7 @@ export default function Home() {
                           cursor: "pointer",
                           objectFit: "cover",
                           transition: "filter 0.3s ease-in-out",
-                          aspectRatio: "16/9", 
+                          aspectRatio: "16/9",
                         }}
                         // Apply the filter on hover
                         onMouseOver={(e) =>
@@ -128,7 +128,7 @@ export default function Home() {
                     </div>
                     <Carousel.Caption
                       style={{
-                        backgroundColor: "rgba(0, 0, 0, 0.3)",
+                        backgroundColor: "rgba(0, 0, 0, 0.5)",
                         borderRadius: "10px",
                       }}
                     >
@@ -181,7 +181,7 @@ export default function Home() {
               <Col sm={12} md={6}>
                 <img
                   src="/pulau.webp"
-                  className="apa-kata-image rounded w-100 h-100"
+                  className="apa-kata-image w-100 h-100"
                   data-aos="fade-left"
                   style={{
                     objectFit: "cover",
@@ -198,7 +198,10 @@ export default function Home() {
                       Kalimantan Barat? Sangat Memukau!
                     </Card.Header>
                     <Card.Body className="px-0 py-0">
-                      <p className="apa-kata-mereka-text">
+                      <p className="apa-kata-mereka-text" style={{ 
+                          textAlign: "justify",
+                          textJustify: "inter-word",
+                       }}>
                         Kalimantan Barat di Indonesia memukau dengan keindahan
                         alamnya, keberagaman budayanya, dan keramahan
                         penduduknya. Dari hutan-hutan yang hijau hingga

@@ -18,7 +18,7 @@
       rgba(87, 97, 73, 0.4) 75%,
       rgba(87, 97, 73, 1) 100%
     ),
-    url("../assets/pulau.webp");
+    url("pulau.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -196,6 +196,8 @@
 }
 
 .kritik-saran-text .form-control {
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -273,8 +275,6 @@
 }
 
 .apa-kata-mereka-text {
-  text-align: "justify";
-  text-justify: "inter-word";
   font-size: 1.2rem;
   font-family: "Fredoka", sans-serif;
 }
