@@ -3,29 +3,30 @@ const destinations = [
     id: 1,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.818037955018!2d109.3393574!3d-0.021556799999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d585ac7425e0b%3A0x9dffe986cffedb63!2sTaman%20Alun%20Kapuas!5e0!3m2!1sen!2sid!4v1709543898893!5m2!1sen!2sid",
     name: "Taman Alun Kapuas",
+    tags: "taman",
     description: "Pesona Alam Sungai Kapuas yang menakjubkan.",
     location: "Pontianak, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "http://34.101.232.245:3000/taman-alam-kapuas-1.jpg",
-      thumbnail: "http://34.101.232.245:3000/taman-alam-kapuas-1.jpg",
+      original: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-1.jpg",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "http://34.101.232.245:3000/taman-alam-kapuas-2.jpg",
-        thumbnail: "http://34.101.232.245:3000/taman-alam-kapuas-2.jpg",
+        original: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-2.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-2.jpg",
       },
       {
-        original: "http://34.101.232.245:3000/taman-alam-kapuas-3.jpg",
-        thumbnail: "http://34.101.232.245:3000/taman-alam-kapuas-3.jpg",
+        original: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-3.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-3.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-4.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-4.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-5.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-5.jpg",
       },
     ],
     slug: "taman-alun-kapuas",
@@ -36,29 +37,30 @@ const destinations = [
     id: 2,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8183197360727!2d109.3222052!3d0.0009995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31e2a75b7f18d41d%3A0x959992e0a47ea028!2sKhatulistiwa%20Park!5e0!3m2!1sen!2sid!4v1709543815778!5m2!1sen!2sid",
     name: "Khatulistiwa Park",
+    tags: "taman",
     description: "Taman dengan pesona garis khatulistiwa.",
     location: "Pontianak, Kalimantan Barat, Indonesia",
     openingHours:"07.30-21.00 WIB",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-1.jpeg",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-1.jpeg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-2.jpeg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-2.jpeg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-3.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-3.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-4.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-4.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-5.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-5.jpg",
       },
     ],
     slug: "khatulistiwa-park",
@@ -69,29 +71,30 @@ const destinations = [
     id: 3,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8178166836324!2d109.3498511!3d-0.028789200000000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d58492226606b%3A0x30190f6309dc377c!2sKeraton%20Kadriyah%20Pontianak%20Kalbar!5e0!3m2!1sen!2sid!4v1709543778032!5m2!1sen!2sid",
     name: "Keraton Kadriyah Pontianak",
+    tags: "sejarah",
     description: "Keraton yang kental dengan budaya Melayu.",
     location: "Pontianak, Kalimantan Barat, Indonesia",
     openingHours: "08.00-17.00 WIB",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-1.jpg",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-2.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-2.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-3.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-3.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-4.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-4.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-5.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-5.jpg",
       },
     ],
     slug: "keraton-kadriyah-pontianak",
@@ -102,29 +105,30 @@ const destinations = [
     id: 4,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.512802551424!2d111.65!3d0.0833333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fe25ec3ec6182f%3A0xe92bd8266863266a!2sBukit%20Kelam!5e0!3m2!1sen!2sid!4v1709543655456!5m2!1sen!2sid",
     name: "Bukit Kelam",
+    tags: "alam",
     description: "Bukit dengan pemandangan hijau alam yang mempesona.",
     location: "Sintang, Kalimantan Barat, Indonesia",
     openingHours: "24 jam",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-1.jpeg",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-1.jpeg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-2.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-2.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-3.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-3.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-4.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-4.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-5.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-5.jpg",
       },
     ],
     slug: "bukit-kelam",
@@ -136,29 +140,26 @@ const destinations = [
     id: 5,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8157866961155!2d111.508725!3d0.0645705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fe21e080b9556b%3A0x99b6f20738ec6f32!2sHutan%20wisata%20baning%20kota!5e0!3m2!1sen!2sid!4v1709543620041!5m2!1sen!2sid",
     name: "Hutan Wisata Baning",
+    tags: "alam",
     description: "Hutan Tropis dengan keanekaragaman hayati yang menyegarkan.",
     location: "Sintang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-1.jpeg",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-1.jpeg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-2.jpeg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-2.jpeg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-3.jpeg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-3.jpeg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
-      },
-      {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-4.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-4.jpg",
       },
     ],
     slug: "hutan-wisata-baning",
@@ -169,29 +170,26 @@ const destinations = [
     id: 6,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.440543190285!2d113.1431574!3d-0.14767575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dff91cd3b33fdad%3A0xa2c3c6765016ec1d!2sAir%20Terjun%20Nokan%20Nayan!5e0!3m2!1sen!2sid!4v1709543572629!5m2!1sen!2sid",
     name: "Air Terjun Nokan Nayan",
+    tags: "alam",
     description: "Keindahan Air Terjun Tertinggi di Indonesia",
     location: "Sintang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-1.webp",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-1.webp",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-2.png",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-2.png",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-3.png",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-3.png",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
-      },
-      {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-4.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-4.jpg",
       },
     ],
     slug: "air-terjun-nokan-nayan",
@@ -202,30 +200,27 @@ const destinations = [
     id: 7,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.7122760986945!2d109.98092329999999!3d-1.861718099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e0518246fcc8edf%3A0x452050502a61bd02!2sPaleis%20van%20Islamitisch%20Sultanaat%20%22%20Matan%20Tandjompoera%20%22!5e0!3m2!1sen!2sid!4v1709543512888!5m2!1sen!2sid" ,
     name: "Keraton Kerajaan Matan Tanjungpura",
+    tags: "sejarah",
     description: "Warisan Budaya Melayu sejak abad ke-8.",
     location: "Ketapang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-1.jpg",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-2.jpg",
+        thumbnail: " https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-2.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-3.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-3.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
-      },
-      {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
-      },
+        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-4.webp",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-4.webp",
+      }
     ],
     slug: "keraton-kerajaan-matan-tanjungpura",
     information: "",
@@ -235,29 +230,22 @@ const destinations = [
     id: 8,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127607.83184303647!2d109.97022120000001!3d-1.847309999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e0519c7433acc57%3A0xba33cd4c431a02a6!2sBalai%20kyai%20mangku%20negeri%20%2F%20rumah%20Melayu%20kepala%20pulau)!5e0!3m2!1sen!2sid!4v1709543471577!5m2!1sen!2sid",
     name: "Rumah Adat Melayu Kyai Mangku Negeri",
+    tags: "sejarah",
     description: "Rumah Adat khas Melayu di tepi Sungai.",
     location: "Ketapang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-1.JPG",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-1.JPG",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-2.webp",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-2.webp",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
-      },
-      {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
-      },
-      {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-3.png",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-3.png",
       },
     ],
     slug: "rumah-adat-melayu-kyai-mangku-negeri",
@@ -268,29 +256,26 @@ const destinations = [
     id: 9,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.7447450948953!2d109.9702212!3d-1.8473100000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e051814f95b381f%3A0x9ebffd93e386dd47!2sKelenteng%20Tua%20Pek%20Kong!5e0!3m2!1sen!2sid!4v1709543409655!5m2!1sen!2sid",
     name: "Kelenteng Tua Pek Kong",
+    tags: "religi",
     description: "Kelenteng Tertua di Ketapang.",
     location: "Ketapang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-1.jpg",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-2.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-2.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-3.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-3.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
-      },
-      {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-4.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-4.jpg",
       },
     ],
     slug: "kelenteng-tua-pek-kong",
@@ -301,29 +286,30 @@ const destinations = [
     id: 10,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.508706954702!2d108.72755154999999!3d0.7137953999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31e3a61d825b1703%3A0xdca6826f54c5d7fb!2sPulau%20Randayan!5e0!3m2!1sen!2sid!4v1709543365370!5m2!1sen!2sid",
     name: "Pulau Randayan",
+    tags: "alam",
     description: "Pulau kecil dengan surga keindahan.",
     location: "Kepulauan Lemukutan, Kalimantan Barat, Indonesia",
     openingHours: "24 jam",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-1.jpg",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-2.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-2.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-3.webp",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-3.webp",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-4.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-4.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-5.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-5.jpg",
       },
     ],
     slug: "pulau-randayan",
@@ -334,29 +320,30 @@ const destinations = [
     id: 11,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127660.4483987712!2d112.1172273!3d0.8405225999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e00e82a94b8c5e7%3A0xbfc12ada8a5b6c9!2sSentarum%20Lake%20National%20Park!5e0!3m2!1sen!2sid!4v1709543329866!5m2!1sen!2sid",
     name: "Danau Sentarum",
+    tags: "alam",
     description: "Taman dengan danau terluas di Kalimantan.",
     location: "Kapuas Hulu, Kalimantan Barat, Indonesia",
     openingHours: "8.00-16.30",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-1.jpg",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-2.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-2.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-3.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-3.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-4.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-4.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-5.webp",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-5.webp",
       },
     ],
     slug: "danau-sentarum",
@@ -367,29 +354,26 @@ const destinations = [
     id: 12,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15957.59645816635!2d108.858328!3d0.83057435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31e30afddad244cb%3A0xa59fc62511c84f49!2sKura%20Kura%20Beach!5e0!3m2!1sen!2sid!4v1709543186916!5m2!1sen!2sid",
     name: "Pantai Kura-Kura",
+    tags:"pantai",
     description: "Pantai dengan keindahan alam yang menakjubkan.",
     location: "Bengkayang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-1.jpg",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-2.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-2.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-3.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-3.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
-      },
-      {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-4.webp",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-4.webp",
       },
     ],
     slug: "pantai-kura-kura",
@@ -400,29 +384,30 @@ const destinations = [
     id: 13,
     maps:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3156233008635!2d108.98895420000002!3d0.9095337000000157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31e372725b14ece7%3A0x7e090133ddfe14f4!2sTri%20Dharma%20Bumi%20Raya%20Temple%20(The%20centerpoint%20of%20Singkawang%20City)!5e0!3m2!1sen!2sid!4v1709543151389!5m2!1sen!2sid",
     name: "Vihara Tri Dharma Bumi Raya",
+    tags: "religi",
     description: "Vihara tertua di Singkawang.",
     location: "Singkawang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-1.jpg",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-2.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-2.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-3.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-3.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-4.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-4.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-5.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-5.jpg",
       },
     ],
     slug: "vihara-tri-dharma-bumi-raya",
@@ -433,29 +418,30 @@ const destinations = [
     id: 14,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.314327302465!2d108.9888318!3d0.9107054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31e37272db4754fb%3A0x88ba7d441e5a1f7!2sMasjid%20Raya%20Singkawang!5e0!3m2!1sen!2sid!4v1709543089612!5m2!1sen!2sid",
     name: "Masjid Raya Singkawang",
+    tags: "religi",
     description: "Masjid dengan keragamannya.",
     location: "Singkawang, Kalimantan Barat, Indonesia",
     openingHours: "24 jam",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-1.jpg",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-2.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-2.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-3.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-3.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-4.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-4.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-5.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-5.jpg",
       },
     ],
     slug: "masjid-raya-singkawang",
@@ -466,29 +452,26 @@ const destinations = [
     id: 15,
     maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3699768693746!2d108.88911967480276!3d0.8589552991327201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31e374ad771ba9ad%3A0x1c12da0437fd35b6!2sBajau%20Beach!5e0!3m2!1sen!2sid!4v1709542745674!5m2!1sen!2sid" ,
     name: "Pantai Tanjung Bajau",
+    tags: "pantai",
     description: "Pantai cantik dengan pesona yang indah.",
     location: "Singkawang, Kalimantan Barat, Indonesia",
     openingHours: "24 jam",
     image: {
-      original: "https://placehold.co/1920x1080",
-      thumbnail: "https://placehold.co/1280x720",
+      original: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-1.webp",
+      thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-1.webp",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-2.webp",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-2.webp",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-3.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-3.jpg",
       },
       {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
-      },
-      {
-        original: "https://placehold.co/1920x1080",
-        thumbnail: "https://placehold.co/1280x720",
+        original: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-4.jpg",
+        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-4.jpg",
       },
     ],
     slug: "pantai-tanjung-bajau",
