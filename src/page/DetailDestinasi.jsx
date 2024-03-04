@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 import { useEffect, useState } from "react";
 import destinations from "../dummy/DataDestinasi";
 import "./DetailDestinasi.css";
-import { IoLocation } from "react-icons/io5";
+import { IoLocation, IoTime } from "react-icons/io5";
 import ImageGallery from "react-image-gallery";
 import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
@@ -56,6 +56,9 @@ export const DetailDestinasi = () => {
                     <p className="py-3 mb-0">
                       <IoLocation className="mb-1" /> {destination.location}
                     </p>
+                    <p className="py-3 mb-2">
+                      <IoTime className="mb-1" /> {destination.openingHours}
+                    </p>
                     <p
                       className="card-text"
                       style={{
@@ -73,7 +76,7 @@ export const DetailDestinasi = () => {
               <iframe
                 width="100%"
                 height="300"
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src={destination.maps}
               >
                 <a href="https://www.gps.ie/">gps devices</a>
               </iframe>

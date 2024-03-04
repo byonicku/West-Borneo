@@ -15,7 +15,7 @@ export default function About() {
                   </h1>
                 </Card.Title>
                 <Card.Text>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus rerum ullam perspiciatis consequatur facilis hic minus quidem vel molestiae, est ipsum dignissimos, corporis asperiores optio officia sed aspernatur odit reiciendis!
+                  Kalimantan Barat adalah salah satu provinsi yang berada di Pulau Kalimantan. Provinsi yang memiliki ciri khas yang kuat karena berbatasan dengan Malaysia, menjadikan budayanya yang bercampur antara Dayak dan Melayu. Selain itu, keberagaman wisata yang disediakan daerah Kalimantan Barat sangat menarik. Sehingga Kalimantan Barat menjadi salah satu destinasi bagi penjelajah Indonesia.
                 </Card.Text>
               </Card.Body>
             </Card>
