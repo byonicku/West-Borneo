@@ -113,6 +113,7 @@ export default function Home() {
                           cursor: "pointer",
                           objectFit: "cover",
                           transition: "filter 0.3s ease-in-out",
+                          aspectRatio: "16/9", 
                         }}
                         // Apply the filter on hover
                         onMouseOver={(e) =>
@@ -158,7 +159,7 @@ export default function Home() {
                   >
                     <div className="text-box">
                       <div className="image-box">
-                        <img src={food.image} alt="" />
+                        <img src={food.image} alt="" style={{ aspectRatio: "4/3", objectFit:"cover" }} />
                       </div>
                       <div className="text-container">
                         <h6>{food.name}</h6>

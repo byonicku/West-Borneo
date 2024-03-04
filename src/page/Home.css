@@ -219,13 +219,13 @@
 }
 
 .card-flyer .image-box {
-  flex: 1; /* Make the image box flexible */
+  flex: 1;
 }
 
 .card-flyer .image-box img {
   transition: all 0.9s ease;
   width: 100%;
-  height: auto; /* Change height to auto for responsive images */
+  height: auto;
 }
 
 .card-flyer:hover .image-box img {
@@ -234,7 +234,10 @@
 }
 
 .card-flyer .text-container {
-  flex: 1; /* Make the text container flexible */
+
+  display: flex;
+  flex-direction: column;
+  height: 200px;
 }
 
 .card-flyer .text-box {
@@ -242,7 +245,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%; /* Ensure the text box fills the container */
+  height: 100%;
 }
 
 .card-flyer .text-box .text-container {
@@ -260,7 +263,7 @@
 }
 
 .card-flyer .text-box p {
-  margin: 10px 0 0; /* Adjust margin */
+  margin: 10px 0 0;
   font-size: 1rem;
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
@@ -281,7 +284,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .flexible {
     display: flex;

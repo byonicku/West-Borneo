@@ -121,7 +121,7 @@ export default function Destinasi(props) {
                 <Card.Text>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 </Card.Text>
-                <InputGroup className="mb-1">
+                <InputGroup className="mb-2">
                   <Form.Control
                     placeholder="Cari Destinasi"
                     aria-label="Cari Destinasi"
@@ -137,7 +137,7 @@ export default function Destinasi(props) {
                     <FontAwesomeIcon icon={faMagnifyingGlass} />
                   </Button>
                 </InputGroup>
-                <Col md={12} lg={6} className="text-start">
+                <Col md={12} lg={12} className="text-start">
                   <FilterButton
                     currentTags={selectedTags}
                     selectedTags={""}
@@ -152,15 +152,27 @@ export default function Destinasi(props) {
                   />
                   <FilterButton
                     currentTags={selectedTags}
-                    selectedTags={"religius"}
+                    selectedTags={"taman"}
                     filterByTags={filterByTags}
-                    text={"Religius"}
+                    text={"Taman"}
                   />
                   <FilterButton
                     currentTags={selectedTags}
-                    selectedTags={"example"}
+                    selectedTags={"sejarah"}
                     filterByTags={filterByTags}
-                    text={"Example"}
+                    text={"Sejarah"}
+                  />
+                  <FilterButton
+                    currentTags={selectedTags}
+                    selectedTags={"alam"}
+                    filterByTags={filterByTags}
+                    text={"Alam"}
+                  />
+                  <FilterButton
+                    currentTags={selectedTags}
+                    selectedTags={"religi"}
+                    filterByTags={filterByTags}
+                    text={"Religi"}
                   />
                 </Col>
               </Card.Body>
@@ -182,7 +194,14 @@ export default function Destinasi(props) {
                     goToDetail(`${destination.slug}`);
                   }}
                 >
-                  <img src={destination.image.thumbnail} alt="" />
+                  <img
+                    src={destination.image.thumbnail}
+                    alt=""
+                    style={{
+                      aspectRatio: "16/9",
+                      objectFit: "cover",
+                    }}
+                  />
                   <article
                     className="text-left"
                     style={{ position: "inherit" }}

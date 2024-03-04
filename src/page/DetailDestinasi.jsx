@@ -48,15 +48,15 @@ export const DetailDestinasi = () => {
                   showFullscreenButton={false}
                   showPlayButton={false}
                   slideDuration={500}
+                  slideInterval={5000}
                   autoPlay={true}
                   showNav={false}
+                  loading="eager"
                 />
                 <div className="card-horizontal">
                   <Card.Body className="card-body pt-0 px-0">
-                    <p className="py-3 mb-0">
-                      <IoLocation className="mb-1" /> {destination.location}
-                    </p>
-                    <p className="py-3 mb-2">
+                    <p className="py-2 mb-0">
+                      <IoLocation className="mb-1" /> {destination.location}{" "} | {" "}
                       <IoTime className="mb-1" /> {destination.openingHours}
                     </p>
                     <p

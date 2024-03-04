@@ -4,7 +4,7 @@
 }
 
 .destination-desc {
-  padding-top: 100px;
+  padding-top: 110px;
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
@@ -13,4 +13,23 @@
   justify-content: center;
   font-family: "Fredoka", sans-serif;
   color: white;
+}
+
+.image-gallery-image {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.image-gallery-slide .image-gallery-image {
+  object-fit: cover !important;
+}
+
+.image-gallery-thumbnail-inner {
+  aspect-ratio: 16/9;
+  object-fit: cover !important;
+}
+
+.image-gallery-thumbnail-image {
+  object-fit: cover !important;
+  aspect-ratio: 16/9;
 }
