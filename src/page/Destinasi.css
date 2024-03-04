@@ -1,7 +1,7 @@
 .destinasi-text {
   padding-top: 120px;
   padding-left: 10px;
-  font-size: 1.2em;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -17,19 +17,19 @@
 }
 
 .destinasi-desc-text {
-  font-size: 16px;
+  font-size: 0.8rem;
   font-family: "Poppins", sans-serif;
 }
 
 .destinasi-footer-text {
-  font-size: 12px;
+  font-size: 0.8rem;
   font-family: "Poppins", sans-serif;
 }
 
 /* CARD YANG DI SEARCH */
 
 .contenedor {
-  height: 100%;
+  height: 75%;
 }
 
 h1 {

@@ -12,23 +12,23 @@ import { useLocation } from "react-router-dom";
 function App() {
   const location = useLocation();
 
-  const enableFooter = ['/'];
+  const enableFooter = ["/"];
 
   const footer = enableFooter.includes(location.pathname);
 
   return (
     <>
-      <Header />
       <Toaster position="top-center" richColors closeButton />
       <main>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/destinasi" element={<Destinasi />} />
+          <Route path="/destinasi" element={<Destinasi tags="" />} />
           <Route path="/destinasi/:slug" element={<DetailDestinasi />} />
         </Routes>
+        {footer && <Footer />}
       </main>
-      {footer && <Footer />}
     </>
   );
 }
