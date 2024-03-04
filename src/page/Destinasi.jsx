@@ -190,7 +190,7 @@ export default function Destinasi(props) {
                   lg={4}
                   md={12}
                   key={destination.id}
-                  className="container_foto"
+                  className="container_foto w3-animate-zoom"
                   onClick={() => {
                     goToDetail(`${destination.slug}`);
                   }}
