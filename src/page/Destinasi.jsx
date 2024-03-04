@@ -14,34 +14,92 @@ import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router";
+import { toast } from "sonner";
+import FilterButton from "../component/FilterButton.jsx";
+import PropTypes from "prop-types";
 
-export default function Destinasi() {
+Destinasi.propTypes = {
+  tags: PropTypes.string,
+};
+
+export default function Destinasi(props) {
+  const { tags } = props;
+
   const [destinationFilter, setDestinationFilter] = useState(destinations);
+  const [selectedTags, setSelectedTags] = useState("");
   const [inputValue, setinputValue] = useState("");
   const [loading, setLoading] = useState(true);
+  const [timeoutId, setTimeoutId] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {
     setDestinationFilter(destinations);
     setTimeout(() => {
       setLoading(false);
-    }, 1500);
-  }, []);
+    }, 1750);
 
-  function searchDestination(value) {
+    if (tags) {
+      setSelectedTags(tags);
+    }
+  }, [tags]);
+
+  const searchDestination = (value) => {
     const filtered = destinations.filter((destination) => {
-      return destination.name.toLowerCase().includes(value.toLowerCase());
+      return (
+        destination.name.toLowerCase().includes(value.toLowerCase()) &&
+        (selectedTags === "" ||
+          destination.tags.includes(selectedTags.toLowerCase()))
+      );
     });
     setDestinationFilter(filtered);
-  }
+  };
 
   const handleInputChange = (event) => {
     setinputValue(event.target.value);
     setLoading(true);
-    setTimeout(() => {
-      searchDestination(event.target.value);
-      setLoading(false);
-    }, 1750);
+    if (timeoutId) clearTimeout(timeoutId);
+    setTimeoutId(
+      setTimeout(() => {
+        searchDestination(event.target.value);
+        setLoading(false);
+      }, 1750)
+    );
+  };
+
+  const filterByTags = (tags) => {
+    if (tags === selectedTags) return;
+
+    setLoading(true);
+    setinputValue("");
+    setSelectedTags(tags);
+
+    if (timeoutId) clearTimeout(timeoutId);
+    setTimeoutId(
+      setTimeout(() => {
+        setDestinationFilter(
+          destinations.filter((destination) => {
+            return tags === "" || destination.tags.includes(tags);
+          })
+        );
+        setLoading(false);
+      }, 1750)
+    );
+  };
+
+  const searchButton = () => {
+    if (inputValue === "") {
+      toast.error("Masukkan kata kunci pencarian!");
+      return;
+    }
+
+    setLoading(true);
+    if (timeoutId) clearTimeout(timeoutId);
+    setTimeoutId(
+      setTimeout(() => {
+        searchDestination(inputValue);
+        setLoading(false);
+      }, 1750)
+    );
   };
 
   const goToDetail = (slug) => {
@@ -63,20 +121,48 @@ export default function Destinasi() {
                 <Card.Text>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 </Card.Text>
-                <InputGroup className="mb-3">
+                <InputGroup className="mb-1">
                   <Form.Control
                     placeholder="Cari Destinasi"
                     aria-label="Cari Destinasi"
+                    id="search-input"
                     value={inputValue}
                     onChange={handleInputChange}
                   />
                   <Button
                     variant="secondary"
                     className="search-button"
-                    onClick={() => searchDestination(inputValue)}>
+                    onClick={() => searchButton()}
+                  >
                     <FontAwesomeIcon icon={faMagnifyingGlass} />
                   </Button>
                 </InputGroup>
+                <Col md={12} lg={6} className="text-start">
+                  <FilterButton
+                    currentTags={selectedTags}
+                    selectedTags={""}
+                    filterByTags={filterByTags}
+                    text={"Semua"}
+                  />
+                  <FilterButton
+                    currentTags={selectedTags}
+                    selectedTags={"pantai"}
+                    filterByTags={filterByTags}
+                    text={"Pantai"}
+                  />
+                  <FilterButton
+                    currentTags={selectedTags}
+                    selectedTags={"religius"}
+                    filterByTags={filterByTags}
+                    text={"Religius"}
+                  />
+                  <FilterButton
+                    currentTags={selectedTags}
+                    selectedTags={"example"}
+                    filterByTags={filterByTags}
+                    text={"Example"}
+                  />
+                </Col>
               </Card.Body>
             </Card>
           </div>
@@ -92,11 +178,13 @@ export default function Destinasi() {
                   className="col-lg-4 col-md-12 container_foto"
                   onClick={() => {
                     goToDetail(`${destination.slug}`);
-                  }}>
+                  }}
+                >
                   <img src={destination.image.thumbnail} alt="" />
                   <article
                     className="text-left"
-                    style={{ position: "inherit", paddingBottom: 0 }}>
+                    style={{ position: "inherit", paddingBottom: 0 }}
+                  >
                     <h2>{destination.name}</h2>
                     <h4>{destination.description}</h4>
                   </article>
