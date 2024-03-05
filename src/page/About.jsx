@@ -1,5 +1,6 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import "./About.css";
+import Kalimantan from "../component/Kalimantan.jsx";
 
 export default function About() {
   return (
@@ -28,6 +29,11 @@ export default function About() {
           </div>
         </Col>
       </Row>
+      <div className="w3-animate-zoom">
+      <Kalimantan />
+      </div>
+      <div style={{ height:'30vh' }}></div>
+      
     </Container>
   );
 }

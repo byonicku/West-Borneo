@@ -7,15 +7,8 @@ import About from "./page/About.jsx";
 import Destinasi from "./page/Destinasi.jsx";
 import DetailDestinasi from "./page/DetailDestinasi.jsx";
 import Footer from "./component/Footer.jsx";
-import { useLocation } from "react-router-dom";
 
 function App() {
-  const location = useLocation();
-
-  // const enableFooter = ['/', '/about'];
-
-  // const footer = enableFooter.includes(location.pathname);
-
   return (
     <>
       <Header />
@@ -29,7 +22,6 @@ function App() {
         </Routes>
       </main>
       <Footer />
-      {/* {footer && <Footer />} */}
     </>
   );
 }

@@ -1,0 +1,10 @@
+.kalimantan-svg path {
+  transition: scale 0.3s ease-in-out, fill 0.3s ease-in-out,
+    stroke 0.3s ease-in-out, stroke-width 0.3s ease-in-out;
+}
+ 
+.kalimantan-svg path:hover {
+  fill: #f0f0f0;
+  stroke: #ffffff;
+  stroke-width: 0.5;
+}

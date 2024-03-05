@@ -95,6 +95,7 @@ export const DetailDestinasi = () => {
           <div style={{ height: "1000px" }}></div>
         </>
       )}
+      <div style={{ height:'10vh' }}></div>
     </Container>
   );
 };
