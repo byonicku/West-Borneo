@@ -215,7 +215,7 @@ export default function Destinasi(props) {
                   <img
                     src="../logo.png"
                     alt="No Data"
-                    className="w-100 h-100"></img>
+                    className="w-50 h-75"></img>
                   <h1
                     className="text-white text-center"
                     style={{
@@ -240,9 +240,9 @@ export default function Destinasi(props) {
                 </div>
               </div>
             </div>
-            <div style={{ height: "1000px" }}></div>
           </>
         )}
+        <div style={{ height: `${loading ? '70vh' : ''}` }}></div>
       </Container>
     </Container>
   );

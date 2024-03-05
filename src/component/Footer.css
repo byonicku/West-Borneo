@@ -1,7 +1,23 @@
 footer {
-    width: 100%;
-    position: relative;
-    clear: both;
-    font-size: 1rem;
+  width: 100%;
+  position: relative;
+  clear: both;
+  font-size: 1rem;
 }
 
+.wave-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.wave {
+  width: 100%;
+  height: auto;
+}
+
+
+@media (min-width: 280px) and (max-width: 673px) {
+    .wave {
+        scale: 1.5;
+    }
+}

@@ -181,11 +181,12 @@
 }
 
 .kritik-saran-header {
+  font-size: 1.6rem;
   font-family: "Fredoka", sans-serif;
 }
 
 .kritik-saran-text {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
 }
 
