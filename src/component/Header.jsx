@@ -38,7 +38,7 @@ export default function Header() {
       expand="lg"
       fixed="top"
       expanded={expanded}
-      className={`pt-3 ${scrolled ? "scrolled-navbar" : "unscrolled-navbar"}`}
+      className={`${scrolled ? "scrolled-navbar" : "unscrolled-navbar"}`}
     >
       <Container>
         <Navbar.Brand
