@@ -45,14 +45,13 @@ export default function Home() {
         items: 1,
         nav: false,
       },
-      600: {
+      280: {
         items: 3,
         nav: false,
       },
       1000: {
         items: 5,
         nav: false,
-        loop: true,
       },
     },
   };
