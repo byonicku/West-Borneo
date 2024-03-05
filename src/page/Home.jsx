@@ -39,7 +39,7 @@ export default function Home() {
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     autoplaySpeed: 750,
-    slideTransition: "ease-in-out",
+    slideTransition: "linear",
     responsive: {
       0: {
         items: 1,
