@@ -38,8 +38,7 @@ export const DetailDestinasi = () => {
               <Card className="card bg-transparent border-0 text-white">
                 <Card.Header
                   className="card-header text-start bg-transparent border-0 ps-0"
-                  style={{ fontWeight: "bold", fontSize: "1.6rem" }}
-                >
+                  style={{ fontWeight: "bold", fontSize: "1.6rem" }}>
                   {destination.name}
                 </Card.Header>
                 <ImageGallery
@@ -56,7 +55,7 @@ export const DetailDestinasi = () => {
                 <div className="card-horizontal">
                   <Card.Body className="card-body pt-0 px-0">
                     <p className="py-2 mb-0">
-                      <IoLocation className="mb-1" /> {destination.location}{" "} | {" "}
+                      <IoLocation className="mb-1" /> {destination.location} |{" "}
                       <IoTime className="mb-1" /> {destination.openingHours}
                     </p>
                     <p
@@ -64,8 +63,7 @@ export const DetailDestinasi = () => {
                       style={{
                         textAlign: "justify",
                         textJustify: "inter-word",
-                      }}
-                    >
+                      }}>
                       {destination.information}
                     </p>
                   </Card.Body>
@@ -73,31 +71,29 @@ export const DetailDestinasi = () => {
               </Card>
             </div>
             <div className="d-flex justify-content-center w3-animate-opacity mb-3">
-              <iframe
-                width="100%"
-                height="300"
-                src={destination.maps}
-              >
+              <iframe width="100%" height="300" src={destination.maps}>
                 <a href="https://www.gps.ie/">gps devices</a>
               </iframe>
             </div>
           </Col>
         </Row>
       ) : (
-        <div
-          className="d-flex justify-content-center w3-animate-opacity"
-          style={{ paddingTop: "100px" }}
-        >
-          <div className="loadingio-spinner-ellipsis-qssv9kk26qh">
-            <div className="ldio-2iup310a73y">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+        <>
+          <div
+            className="d-flex justify-content-center w3-animate-opacity"
+            style={{ paddingTop: "100px" }}>
+            <div className="loadingio-spinner-ellipsis-qssv9kk26qh">
+              <div className="ldio-2iup310a73y">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
             </div>
           </div>
-        </div>
+          <div style={{ height: "1000px" }}></div>
+        </>
       )}
     </Container>
   );

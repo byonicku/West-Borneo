@@ -133,8 +133,7 @@ export default function Destinasi(props) {
                   <Button
                     variant="secondary"
                     className="search-button"
-                    onClick={() => searchButton()}
-                  >
+                    onClick={() => searchButton()}>
                     <FontAwesomeIcon icon={faMagnifyingGlass} />
                   </Button>
                 </InputGroup>
@@ -193,8 +192,7 @@ export default function Destinasi(props) {
                   className="container_foto w3-animate-zoom"
                   onClick={() => {
                     goToDetail(`${destination.slug}`);
-                  }}
-                >
+                  }}>
                   <img
                     src={destination.image.thumbnail}
                     alt=""
@@ -205,8 +203,7 @@ export default function Destinasi(props) {
                   />
                   <article
                     className="text-left"
-                    style={{ position: "inherit" }}
-                  >
+                    style={{ position: "inherit" }}>
                     <h2>{destination.name}</h2>
                     <h4>{destination.description}</h4>
                   </article>
@@ -215,27 +212,36 @@ export default function Destinasi(props) {
             ) : (
               <div className="w3-animate-zoom">
                 <div>
-                  <img src="../logo.png" alt="No Data" className="w-100 h-100"></img>
-                  <h1 className="text-white text-center" style={{ 
-                    fontFamily: "Poppins",
-                  }}>404 Not Found</h1>
+                  <img
+                    src="../logo.png"
+                    alt="No Data"
+                    className="w-100 h-100"></img>
+                  <h1
+                    className="text-white text-center"
+                    style={{
+                      fontFamily: "Poppins",
+                    }}>
+                    404 Not Found
+                  </h1>
                 </div>
-                
               </div>
             )}
           </Row>
         ) : (
-          <div className="d-flex justify-content-center w3-animate-opacity">
-            <div className="loadingio-spinner-ellipsis-qssv9kk26qh">
-              <div className="ldio-2iup310a73y">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+          <>
+            <div className="d-flex justify-content-center w3-animate-opacity">
+              <div className="loadingio-spinner-ellipsis-qssv9kk26qh">
+                <div className="ldio-2iup310a73y">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
               </div>
             </div>
-          </div>
+            <div style={{ height: "1000px" }}></div>
+          </>
         )}
       </Container>
     </Container>

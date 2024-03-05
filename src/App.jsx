@@ -12,9 +12,9 @@ import { useLocation } from "react-router-dom";
 function App() {
   const location = useLocation();
 
-  const enableFooter = ['/', '/about'];
+  // const enableFooter = ['/', '/about'];
 
-  const footer = enableFooter.includes(location.pathname);
+  // const footer = enableFooter.includes(location.pathname);
 
   return (
     <>
@@ -28,7 +28,8 @@ function App() {
           <Route path="/destinasi/:slug" element={<DetailDestinasi />} />
         </Routes>
       </main>
-      {footer && <Footer />}
+      <Footer />
+      {/* {footer && <Footer />} */}
     </>
   );
 }
