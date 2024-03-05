@@ -23,6 +23,8 @@ export default function About() {
                   wisata yang disediakan daerah Kalimantan Barat sangat menarik.
                   Sehingga Kalimantan Barat menjadi salah satu destinasi bagi
                   penjelajah Indonesia.
+                  Kalimantan Barat adalah provinsi di Indonesia yang disebut sebagai provinsi "Seribu Sungai". Banyak sungai yang mengalir di daerah Kalimantan Barat, baik kecil maupun besar. Sungai Kapuas, sebagai sungai terbesar di Indonesia, juga mengalir di provinsi ini. Selain itu, sebagian besar desa di Kalimantan Barat masih menggunakan sungai sebagai prasarana transportasi.
+Kalimantan yang sering sebagai paru-paru dunia juga terpancar pada Kalimantan Barat. Kalimantan Barat memiliki luas hutan sekitar 8.2 juta hektar, namun mengalami deforestasi dari tahun ke tahun. Meskipun demikian, sebagian daerah hutan telah dijadikan hutan adat untuk tetap menjaga kelestariannya.
                 </Card.Text>
               </Card.Body>
             </Card>
