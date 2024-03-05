@@ -30,6 +30,16 @@ export default function Home() {
     margin: 10,
     responsiveClass: true,
     autoWidth: true,
+    center: true,
+    pullDrag: true,
+    animateIn: true,
+    lazyLoad: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    autoplaySpeed: 750,
+    slideTransition: "ease-in-out",
     responsive: {
       0: {
         items: 1,

@@ -14,7 +14,7 @@ export default function FilterButton(props) {
     <Button
       variant={`${selectedTags === currentTags? "outline-light" : "secondary"}`}
       onClick={() => filterByTags(selectedTags.toLowerCase())}
-      className="me-2 mb-2"
+      className="me-md-2 me-sm-2 me-2 mb-2"
     >
       {text}
     </Button>
