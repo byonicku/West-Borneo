@@ -122,7 +122,7 @@ export default function Destinasi(props) {
                   Bingung mau liburan kemana? Ayo, cari destinasi wisata yang
                   kamu inginkan di Kalimantan Barat!{" "}
                 </Card.Text>
-                <InputGroup className="mb-2">
+                <InputGroup className="mb-2 cari-destinasi">
                   <Form.Control
                     placeholder="Cari Destinasi"
                     aria-label="Cari Destinasi"

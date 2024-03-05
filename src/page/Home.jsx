@@ -227,7 +227,7 @@ export default function Home() {
               </Col>
             </Row>
           </Container>
-          <Container data-aos="zoom-in">
+          <Container data-aos="zoom-in" className="">
             <h2 className="mb-3 kritik-saran-header text-white">
               Kami Terima Kritik & Saran Anda
             </h2>
