@@ -46,7 +46,7 @@ export default function Header() {
           onClick={() => scrollToTop()}
         >
           <div className="logo">
-            <img src="../logo.png" alt="logo" height="80px" />
+            <img src="../logo.png" alt="logo" height="80px" onClick={() => moving("/")} />
           </div>
         </Navbar.Brand>
         <Navbar.Toggle
