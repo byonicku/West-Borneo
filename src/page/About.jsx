@@ -1,5 +1,5 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
-import './About.css';
+import "./About.css";
 
 export default function About() {
   return (
@@ -11,11 +11,17 @@ export default function About() {
               <Card.Body>
                 <Card.Title>
                   <h1>
-                    <strong>Tentang Kami ...</strong>
+                    <strong>Tentang Kalimantan Barat</strong>
                   </h1>
                 </Card.Title>
                 <Card.Text>
-                  Kalimantan Barat adalah salah satu provinsi yang berada di Pulau Kalimantan. Provinsi yang memiliki ciri khas yang kuat karena berbatasan dengan Malaysia, menjadikan budayanya yang bercampur antara Dayak dan Melayu. Selain itu, keberagaman wisata yang disediakan daerah Kalimantan Barat sangat menarik. Sehingga Kalimantan Barat menjadi salah satu destinasi bagi penjelajah Indonesia.
+                  Kalimantan Barat adalah salah satu provinsi yang berada di
+                  Pulau Kalimantan. Provinsi yang memiliki ciri khas yang kuat
+                  karena berbatasan dengan Malaysia, menjadikan budayanya yang
+                  bercampur antara Dayak dan Melayu. Selain itu, keberagaman
+                  wisata yang disediakan daerah Kalimantan Barat sangat menarik.
+                  Sehingga Kalimantan Barat menjadi salah satu destinasi bagi
+                  penjelajah Indonesia.
                 </Card.Text>
               </Card.Body>
             </Card>

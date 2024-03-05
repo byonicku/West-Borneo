@@ -46,7 +46,12 @@ export default function Header() {
           onClick={() => scrollToTop()}
         >
           <div className="logo">
-            <img src="../logo.png" alt="logo" height="80px" onClick={() => moving("/")} />
+            <img
+              src="../logo.png"
+              alt="logo"
+              height="80px"
+              onClick={() => moving("/")}
+            />
           </div>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -76,7 +81,7 @@ export default function Header() {
               className="nav-link"
               variant="none"
             >
-              Tentang Kami
+              Tentang
             </Button>
             <Button
               onClick={() => moving("/destinasi")}
