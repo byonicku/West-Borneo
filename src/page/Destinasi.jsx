@@ -215,7 +215,7 @@ export default function Destinasi(props) {
             ) : (
               <div className="w3-animate-zoom">
                 <div>
-                  <img src="../logo.png" alt="No Data"></img>
+                  <img src="../logo.png" alt="No Data" className="w-100 h-100"></img>
                   <h1 className="text-white text-center" style={{ 
                     fontFamily: "Poppins",
                   }}>404 Not Found</h1>
