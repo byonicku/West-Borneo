@@ -41,7 +41,7 @@ const foods = [
   },
   {
     name: "Bubur Gunting",
-    description: "Bubur yang berisi cakwe yang telah diptong dan kacang hijau kupas.",
+    description: "Bubur yang berisi cakwe yang telah dipotong dan kacang hijau kupas.",
     image: "https://atma-youth.azurewebsites.net/makanan/bubur-gunting.jpg",
   },
   {
