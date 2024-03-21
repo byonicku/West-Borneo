@@ -8,25 +8,25 @@ const destinations = [
     location: "Pontianak, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-1.jpg",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-1.jpg",
+      original: "https://image-west-borneo.vercel.app/wisata/taman-alam-kapuas/taman-alam-kapuas-1.jpg",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/taman-alam-kapuas/taman-alam-kapuas-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-2.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-2.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/taman-alam-kapuas/taman-alam-kapuas-2.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/taman-alam-kapuas/taman-alam-kapuas-2.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-3.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-3.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/taman-alam-kapuas/taman-alam-kapuas-3.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/taman-alam-kapuas/taman-alam-kapuas-3.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-4.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-4.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/taman-alam-kapuas/taman-alam-kapuas-4.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/taman-alam-kapuas/taman-alam-kapuas-4.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-5.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-alam-kapuas/taman-alam-kapuas-5.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/taman-alam-kapuas/taman-alam-kapuas-5.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/taman-alam-kapuas/taman-alam-kapuas-5.jpg",
       },
     ],
     slug: "taman-alun-kapuas",
@@ -42,25 +42,25 @@ const destinations = [
     location: "Pontianak, Kalimantan Barat, Indonesia",
     openingHours:"07.30-21.00 WIB",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-1.jpeg",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-1.jpeg",
+      original: "https://image-west-borneo.vercel.app/wisata/taman-khatulistiwa/taman-khatulistiwa-1.jpeg",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/taman-khatulistiwa/taman-khatulistiwa-1.jpeg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-2.jpeg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-2.jpeg",
+        original: "https://image-west-borneo.vercel.app/wisata/taman-khatulistiwa/taman-khatulistiwa-2.jpeg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/taman-khatulistiwa/taman-khatulistiwa-2.jpeg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-3.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-3.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/taman-khatulistiwa/taman-khatulistiwa-3.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/taman-khatulistiwa/taman-khatulistiwa-3.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-4.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-4.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/taman-khatulistiwa/taman-khatulistiwa-4.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/taman-khatulistiwa/taman-khatulistiwa-4.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-5.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/taman-khatulistiwa/taman-khatulistiwa-5.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/taman-khatulistiwa/taman-khatulistiwa-5.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/taman-khatulistiwa/taman-khatulistiwa-5.jpg",
       },
     ],
     slug: "khatulistiwa-park",
@@ -76,25 +76,25 @@ const destinations = [
     location: "Pontianak, Kalimantan Barat, Indonesia",
     openingHours: "08.00-17.00 WIB",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-1.jpg",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-1.jpg",
+      original: "https://image-west-borneo.vercel.app/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-1.jpg",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-2.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-2.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-2.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-2.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-3.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-3.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-3.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-3.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-4.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-4.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-4.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-4.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-5.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-5.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-5.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/keraton-kadriyah-pontianak/keraton-kadriyah-pontianak-5.jpg",
       },
     ],
     slug: "keraton-kadriyah-pontianak",
@@ -110,25 +110,25 @@ const destinations = [
     location: "Sintang, Kalimantan Barat, Indonesia",
     openingHours: "24 jam",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-1.jpeg",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-1.jpeg",
+      original: "https://image-west-borneo.vercel.app/wisata/bukit-kelam/bukit-kelam-1.jpeg",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/bukit-kelam/bukit-kelam-1.jpeg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-2.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-2.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/bukit-kelam/bukit-kelam-2.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/bukit-kelam/bukit-kelam-2.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-3.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-3.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/bukit-kelam/bukit-kelam-3.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/bukit-kelam/bukit-kelam-3.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-4.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-4.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/bukit-kelam/bukit-kelam-4.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/bukit-kelam/bukit-kelam-4.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-5.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/bukit-kelam/bukit-kelam-5.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/bukit-kelam/bukit-kelam-5.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/bukit-kelam/bukit-kelam-5.jpg",
       },
     ],
     slug: "bukit-kelam",
@@ -145,21 +145,21 @@ const destinations = [
     location: "Sintang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-1.jpeg",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-1.jpeg",
+      original: "https://image-west-borneo.vercel.app/wisata/hutan-wisata-baning/hutan-wisata-baning-1.jpeg",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/hutan-wisata-baning/hutan-wisata-baning-1.jpeg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-2.jpeg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-2.jpeg",
+        original: "https://image-west-borneo.vercel.app/wisata/hutan-wisata-baning/hutan-wisata-baning-2.jpeg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/hutan-wisata-baning/hutan-wisata-baning-2.jpeg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-3.jpeg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-3.jpeg",
+        original: "https://image-west-borneo.vercel.app/wisata/hutan-wisata-baning/hutan-wisata-baning-3.jpeg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/hutan-wisata-baning/hutan-wisata-baning-3.jpeg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-4.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/hutan-wisata-baning/hutan-wisata-baning-4.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/hutan-wisata-baning/hutan-wisata-baning-4.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/hutan-wisata-baning/hutan-wisata-baning-4.jpg",
       },
     ],
     slug: "hutan-wisata-baning",
@@ -175,21 +175,21 @@ const destinations = [
     location: "Sintang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-1.webp",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-1.webp",
+      original: "https://image-west-borneo.vercel.app/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-1.webp",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-1.webp",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-2.png",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-2.png",
+        original: "https://image-west-borneo.vercel.app/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-2.png",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-2.png",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-3.png",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-3.png",
+        original: "https://image-west-borneo.vercel.app/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-3.png",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-3.png",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-4.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-4.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-4.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/air-terjun-nokan-nayan/air-terjun-nokan-nayan-4.jpg",
       },
     ],
     slug: "air-terjun-nokan-nayan",
@@ -205,21 +205,21 @@ const destinations = [
     location: "Ketapang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-1.jpg",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-1.jpg",
+      original: "https://image-west-borneo.vercel.app/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-1.jpg",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-2.jpg",
-        thumbnail: " https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-2.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-2.jpg",
+        thumbnail: " https://image-west-borneo.vercel.app/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-2.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-3.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-3.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-3.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-3.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-4.webp",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-4.webp",
+        original: "https://image-west-borneo.vercel.app/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-4.webp",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/keraton-kerajaan-matan-tanjungpura/keraton-kerajaan-matan-tanjungpura-4.webp",
       }
     ],
     slug: "keraton-kerajaan-matan-tanjungpura",
@@ -235,17 +235,17 @@ const destinations = [
     location: "Ketapang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-1.JPG",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-1.JPG",
+      original: "https://image-west-borneo.vercel.app/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-1.JPG",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-1.JPG",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-2.webp",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-2.webp",
+        original: "https://image-west-borneo.vercel.app/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-2.webp",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-2.webp",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-3.png",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-3.png",
+        original: "https://image-west-borneo.vercel.app/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-3.png",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/rumah-adat-melayu-kyai-mangku-negeri/rumah-adat-melayu-kyai-mangku-negeri-3.png",
       },
     ],
     slug: "rumah-adat-melayu-kyai-mangku-negeri",
@@ -261,21 +261,21 @@ const destinations = [
     location: "Ketapang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-1.jpg",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-1.jpg",
+      original: "https://image-west-borneo.vercel.app/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-1.jpg",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-2.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-2.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-2.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-2.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-3.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-3.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-3.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-3.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-4.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-4.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-4.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/kelenteng-tua-pek-kong-ketapang/kelenteng-tua-pek-kong-ketapang-4.jpg",
       },
     ],
     slug: "kelenteng-tua-pek-kong",
@@ -291,25 +291,25 @@ const destinations = [
     location: "Kepulauan Lemukutan, Kalimantan Barat, Indonesia",
     openingHours: "24 jam",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-1.jpg",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-1.jpg",
+      original: "https://image-west-borneo.vercel.app/wisata/pulau-randayan/pulau-randayan-1.jpg",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/pulau-randayan/pulau-randayan-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-2.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-2.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/pulau-randayan/pulau-randayan-2.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/pulau-randayan/pulau-randayan-2.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-3.webp",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-3.webp",
+        original: "https://image-west-borneo.vercel.app/wisata/pulau-randayan/pulau-randayan-3.webp",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/pulau-randayan/pulau-randayan-3.webp",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-4.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-4.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/pulau-randayan/pulau-randayan-4.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/pulau-randayan/pulau-randayan-4.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-5.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pulau-randayan/pulau-randayan-5.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/pulau-randayan/pulau-randayan-5.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/pulau-randayan/pulau-randayan-5.jpg",
       },
     ],
     slug: "pulau-randayan",
@@ -325,25 +325,25 @@ const destinations = [
     location: "Kapuas Hulu, Kalimantan Barat, Indonesia",
     openingHours: "8.00-16.30",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-1.jpg",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-1.jpg",
+      original: "https://image-west-borneo.vercel.app/wisata/danau-sentarum/danau-sentarum-1.jpg",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/danau-sentarum/danau-sentarum-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-2.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-2.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/danau-sentarum/danau-sentarum-2.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/danau-sentarum/danau-sentarum-2.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-3.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-3.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/danau-sentarum/danau-sentarum-3.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/danau-sentarum/danau-sentarum-3.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-4.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-4.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/danau-sentarum/danau-sentarum-4.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/danau-sentarum/danau-sentarum-4.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-5.webp",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/danau-sentarum/danau-sentarum-5.webp",
+        original: "https://image-west-borneo.vercel.app/wisata/danau-sentarum/danau-sentarum-5.webp",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/danau-sentarum/danau-sentarum-5.webp",
       },
     ],
     slug: "danau-sentarum",
@@ -359,21 +359,21 @@ const destinations = [
     location: "Bengkayang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-1.jpg",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-1.jpg",
+      original: "https://image-west-borneo.vercel.app/wisata/pantai-kura-kura/pantai-kura-kura-1.jpg",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/pantai-kura-kura/pantai-kura-kura-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-2.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-2.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/pantai-kura-kura/pantai-kura-kura-2.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/pantai-kura-kura/pantai-kura-kura-2.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-3.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-3.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/pantai-kura-kura/pantai-kura-kura-3.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/pantai-kura-kura/pantai-kura-kura-3.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-4.webp",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-kura-kura/pantai-kura-kura-4.webp",
+        original: "https://image-west-borneo.vercel.app/wisata/pantai-kura-kura/pantai-kura-kura-4.webp",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/pantai-kura-kura/pantai-kura-kura-4.webp",
       },
     ],
     slug: "pantai-kura-kura",
@@ -389,25 +389,25 @@ const destinations = [
     location: "Singkawang, Kalimantan Barat, Indonesia",
     openingHours: "-",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-1.jpg",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-1.jpg",
+      original: "https://image-west-borneo.vercel.app/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-1.jpg",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-2.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-2.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-2.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-2.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-3.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-3.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-3.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-3.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-4.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-4.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-4.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-4.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-5.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-5.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-5.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/vihara-tri-dharma-bumi-raya/vihara-tri-dharma-bumi-raya-5.jpg",
       },
     ],
     slug: "vihara-tri-dharma-bumi-raya",
@@ -423,25 +423,25 @@ const destinations = [
     location: "Singkawang, Kalimantan Barat, Indonesia",
     openingHours: "24 jam",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-1.jpg",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-1.jpg",
+      original: "https://image-west-borneo.vercel.app/wisata/masjid-raya-singkawang/masjid-raya-singkawang-1.jpg",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/masjid-raya-singkawang/masjid-raya-singkawang-1.jpg",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-2.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-2.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/masjid-raya-singkawang/masjid-raya-singkawang-2.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/masjid-raya-singkawang/masjid-raya-singkawang-2.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-3.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-3.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/masjid-raya-singkawang/masjid-raya-singkawang-3.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/masjid-raya-singkawang/masjid-raya-singkawang-3.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-4.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-4.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/masjid-raya-singkawang/masjid-raya-singkawang-4.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/masjid-raya-singkawang/masjid-raya-singkawang-4.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-5.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/masjid-raya-singkawang/masjid-raya-singkawang-5.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/masjid-raya-singkawang/masjid-raya-singkawang-5.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/masjid-raya-singkawang/masjid-raya-singkawang-5.jpg",
       },
     ],
     slug: "masjid-raya-singkawang",
@@ -457,21 +457,21 @@ const destinations = [
     location: "Singkawang, Kalimantan Barat, Indonesia",
     openingHours: "24 jam",
     image: {
-      original: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-1.webp",
-      thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-1.webp",
+      original: "https://image-west-borneo.vercel.app/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-1.webp",
+      thumbnail: "https://image-west-borneo.vercel.app/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-1.webp",
     }, // Placeholder image URL
     galery: [
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-2.webp",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-2.webp",
+        original: "https://image-west-borneo.vercel.app/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-2.webp",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-2.webp",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-3.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-3.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-3.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-3.jpg",
       },
       {
-        original: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-4.jpg",
-        thumbnail: "https://atma-youth.azurewebsites.net/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-4.jpg",
+        original: "https://image-west-borneo.vercel.app/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-4.jpg",
+        thumbnail: "https://image-west-borneo.vercel.app/wisata/pantai-tanjung-bajau/pantai-tanjung-bajau-4.jpg",
       },
     ],
     slug: "pantai-tanjung-bajau",
